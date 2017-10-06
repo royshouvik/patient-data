@@ -1,0 +1,36 @@
+version: "3"
+services:
+  mongo:
+    container_name: "mongodb"
+    image: mongo
+    ports:
+      - "27017:27017"
+    networks:
+      - local
+  api:
+    container_name: "api"
+    build: ./api
+    ports:
+      - "3000:3000"
+    networks:
+      - local
+    depends_on:
+      - mongo
+  frontend:
+    container_name: "frontend"
+    build: ./frontend
+    environment:
+      NODE_ENV: development
+    ports:
+      - "8000:3000"
+      - "35729:35729"
+    volumes:
+      - ./frontend:/usr/src/app
+      - /usr/src/app/node_modules
+    networks:
+      - local
+    depends_on:
+      - api
+networks:
+  local:
+    external: false
