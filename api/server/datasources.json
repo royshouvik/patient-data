@@ -6,11 +6,11 @@
   "mongodb": {
     "host": "mongodb",
     "port": 27017,
-    "url": "mongodb://mongodb:27017/database",
+    "url": "${MONGODB_URL}",
     "database": "database",
-    "password": "",
+    "password": "${MONGO_PASS}",
     "name": "mongodb",
-    "user": "",
+    "user": "${MONGO_USER}",
     "connector": "mongodb"
   }
 }
