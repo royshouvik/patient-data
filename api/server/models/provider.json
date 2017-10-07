@@ -1,0 +1,63 @@
+{
+  "name": "Provider",
+  "plural": "providers",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "drugDefinition": {
+      "type": "string",
+      "required": true
+    },
+    "providerId": {
+      "type": "number",
+      "required": true
+    },
+    "providerName": {
+      "type": "string",
+      "required": true
+    },
+    "providerStreetAddress": {
+      "type": "string",
+      "required": true
+    },
+    "providerCity": {
+      "type": "string",
+      "required": true
+    },
+    "providerState": {
+      "type": "string",
+      "required": true
+    },
+    "providerZipCode": {
+      "type": "number",
+      "required": true
+    },
+    "hospitalReferralRegionDescription": {
+      "type": "string",
+      "required": true
+    },
+    "totalDischarges": {
+      "type": "number",
+      "required": true
+    },
+    "averageCoveredCharges": {
+      "type": "number",
+      "required": true
+    },
+    "averageTotalPayments": {
+      "type": "number",
+      "required": true
+    },
+    "averageMedicarePayments": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

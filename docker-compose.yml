@@ -3,18 +3,29 @@ services:
   mongo:
     container_name: "mongodb"
     image: mongo
-    command: mongod --auth
+    # command: mongod --auth
     ports:
       - "27017:27017"
     networks:
       - local
+  mongo-seed:
+    build: ./mongo-seed
+    environment:
+      - SEED_FILE=${SEED_FILE}
+      - MONGO_HOST=${MONGO_HOST}
+      - MONGO_DB_NAME=${MONGO_DB_NAME}
+      - MONGO_COLLECTION_NAME=${MONGO_COLLECTION_NAME}
+    networks:
+      - local
+    depends_on:
+      - mongo
   api:
     container_name: "api"
     build: ./api
     environment:
-    - MONGO_USER=${MONGO_USER}
-    - MONGO_PASS=${MONGO_PASS}
-    - MONGODB_URL=${MONGODB_URL}
+      - MONGO_USER=${MONGO_USER}
+      - MONGO_PASS=${MONGO_PASS}
+      - MONGODB_URL=${MONGODB_URL}
     ports:
       - "3000:3000"
     networks:
