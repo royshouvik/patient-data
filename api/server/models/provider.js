@@ -12,8 +12,6 @@ module.exports = function(Provider) {
     minAvgMedicarePayments,
     state,
     cb) {
-    console.log('Filter:', filter);
-
     // Set default for unspecified params
     maxDischarges = maxDischarges || Infinity;
     minDischarges = minDischarges || 0;
@@ -58,9 +56,7 @@ module.exports = function(Provider) {
         },
       },
     };
-    console.log('Custom Filter', customFilter);
     const updatedFilter = Object.assign({}, filter, customFilter);
-    console.log('Updated Filter', updatedFilter);
     return this.find(updatedFilter, cb);
   };
 

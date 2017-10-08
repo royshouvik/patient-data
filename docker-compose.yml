@@ -36,7 +36,8 @@ services:
     container_name: "frontend"
     build: ./frontend
     environment:
-      NODE_ENV: development
+      - NODE_ENV=development
+      - API_BASE_URL=${API_BASE_URL}
     ports:
       - "8000:3000"
       - "35729:35729"
