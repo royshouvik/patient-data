@@ -1,5 +1,4 @@
 .App {
-  height: 1200px;
   width: 100%;
 }
 
@@ -16,3 +15,14 @@
   align-items: center;
 }
 
+::-webkit-scrollbar {
+  width: 5px;
+}
+ 
+::-webkit-scrollbar-track {
+  background: #dddddd;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3f51b5; 
+}

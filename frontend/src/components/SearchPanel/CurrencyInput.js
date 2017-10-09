@@ -53,11 +53,13 @@ CustomFormat.propTypes = {
   CurrencyInput.propTypes = {
       label : PropTypes.string,
       fullWidth: PropTypes.bool,
+      type: PropTypes.string,
   }
 
   CurrencyInput.defaultProps = {
       label: 'Currency Input',
       fullWidth: false,
+      type: 'number',
   }
 
   export default CurrencyInput;

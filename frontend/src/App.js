@@ -27,10 +27,10 @@ class App extends Component {
       <div className="App">
         <Header />
         <Grid container spacing={16} style={containerStyle}>
-          <Grid item xs={12} lg={4}>
+          <Grid item xs={12} lg={6} xl={4}>
             <SearchPanel onSearch={this.props.getProviders}/>
           </Grid>
-          <Grid item xs={12} lg={8} className="results">
+          <Grid item xs={12} lg={6} xl={8} className="results">
           {
             isFetching && (<div className="message"><CircularProgress size={50} /></div>)
           }
