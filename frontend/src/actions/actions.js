@@ -1,4 +1,4 @@
-import fetch from 'isomorphic-fetch';
+import request from 'isomorphic-fetch';
 import { PENDING, FULFILLED, REJECTED } from 'redux-promise-middleware';
 import { paramsToQueryString } from '../util';
 
@@ -12,7 +12,7 @@ const API_BASE_URL = 'http://localhost:3000/api/';
 
 const transformProvider = paramsToQueryString('providers');
 
-export function getProviders(params, fetch=fetch) {
+export function getProviders(params, fetch=request) {
     const queryString = transformProvider(params);
     const payload = fetch(`${API_BASE_URL}${queryString}`).then(res => res.json());
     return {
