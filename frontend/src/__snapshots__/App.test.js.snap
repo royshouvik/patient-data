@@ -1,0 +1,4212 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders correctly if no data is fetched 1`] = `
+<div
+  className="App"
+>
+  <header
+    className="MuiPaper-root-12 MuiPaper-shadow4-18 MuiAppBar-root-5 MuiAppBar-positionStatic-8 MuiAppBar-colorPrimary-10 Header-root-1"
+  >
+    <div
+      className="MuiToolbar-root-39 MuiToolbar-gutters-40 Header-container-3"
+    >
+      <div
+        className="Header-flex-2"
+      >
+        <h2
+          className="MuiTypography-root-41 MuiTypography-title-47 MuiTypography-colorInherit-60 Header-brand-4"
+        >
+          IPPS Provider Dashboard
+        </h2>
+      </div>
+    </div>
+  </header>
+  <div
+    className="MuiGrid-typeContainer-63 MuiGrid-spacing-xs-16-78"
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+  >
+    <div
+      className="MuiGrid-typeItem-64 MuiGrid-grid-xs-12-93 MuiGrid-grid-lg-6-126 MuiGrid-grid-xl-4-137"
+    >
+      <div
+        className="SearchPanel"
+      >
+        <div
+          className="MuiGrid-typeContainer-63 MuiGrid-spacing-xs-24-79"
+        >
+          <div
+            className="MuiGrid-typeItem-64 MuiGrid-grid-xs-12-93 MuiGrid-grid-sm-6-100"
+          >
+            <div
+              className="MuiFormControl-root-146 MuiFormControl-marginNormal-147 MuiFormControl-fullWidth-149"
+              onBlur={[Function]}
+              onFocus={[Function]}
+              required={false}
+            >
+              <label
+                className="MuiFormLabel-root-156 MuiInputLabel-root-150 MuiInputLabel-formControl-151 MuiInputLabel-animated-154"
+                htmlFor={undefined}
+              >
+                Max number of Total Discharges
+              </label>
+              <div
+                className="MuiInput-root-160 MuiInput-formControl-161 MuiInput-inkbar-162 MuiInput-underline-168"
+                onBlur={[Function]}
+                onFocus={[Function]}
+              >
+                <input
+                  autoComplete={undefined}
+                  autoFocus={undefined}
+                  className="MuiInput-input-164 MuiInput-inputSingleline-171"
+                  defaultValue={undefined}
+                  disabled={false}
+                  id={undefined}
+                  name={undefined}
+                  onChange={[Function]}
+                  onKeyDown={undefined}
+                  onKeyUp={undefined}
+                  placeholder={undefined}
+                  readOnly={undefined}
+                  required={undefined}
+                  rows={undefined}
+                  type="number"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-typeItem-64 MuiGrid-grid-xs-12-93 MuiGrid-grid-sm-6-100"
+          >
+            <div
+              className="MuiFormControl-root-146 MuiFormControl-marginNormal-147 MuiFormControl-fullWidth-149"
+              onBlur={[Function]}
+              onFocus={[Function]}
+              required={false}
+            >
+              <label
+                className="MuiFormLabel-root-156 MuiInputLabel-root-150 MuiInputLabel-formControl-151 MuiInputLabel-animated-154"
+                htmlFor={undefined}
+              >
+                Min number of Total Discharges
+              </label>
+              <div
+                className="MuiInput-root-160 MuiInput-formControl-161 MuiInput-inkbar-162 MuiInput-underline-168"
+                onBlur={[Function]}
+                onFocus={[Function]}
+              >
+                <input
+                  autoComplete={undefined}
+                  autoFocus={undefined}
+                  className="MuiInput-input-164 MuiInput-inputSingleline-171"
+                  defaultValue={undefined}
+                  disabled={false}
+                  id={undefined}
+                  name={undefined}
+                  onChange={[Function]}
+                  onKeyDown={undefined}
+                  onKeyUp={undefined}
+                  placeholder={undefined}
+                  readOnly={undefined}
+                  required={undefined}
+                  rows={undefined}
+                  type="number"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-typeItem-64 MuiGrid-grid-xs-12-93 MuiGrid-grid-sm-6-100"
+          >
+            <div
+              className="MuiFormControl-root-146 MuiFormControl-fullWidth-149"
+              onBlur={[Function]}
+              onFocus={[Function]}
+              required={false}
+            >
+              <label
+                className="MuiFormLabel-root-156 MuiInputLabel-root-150 MuiInputLabel-formControl-151 MuiInputLabel-animated-154"
+                htmlFor="max_average_covered_charges"
+              >
+                Max Average Covered Charges
+              </label>
+              <div
+                className="MuiInput-root-160 MuiInput-fullWidth-174 MuiInput-formControl-161 MuiInput-inkbar-162 MuiInput-underline-168"
+                label="Max Average Covered Charges"
+                onBlur={[Function]}
+                onFocus={[Function]}
+              >
+                <input
+                  autoComplete={undefined}
+                  autoFocus={undefined}
+                  className="MuiInput-input-164 MuiInput-inputSingleline-171"
+                  defaultValue={undefined}
+                  disabled={false}
+                  id="max_average_covered_charges"
+                  name={undefined}
+                  onChange={[Function]}
+                  onKeyDown={[Function]}
+                  onKeyUp={undefined}
+                  onMouseUp={[Function]}
+                  placeholder={undefined}
+                  readOnly={undefined}
+                  required={undefined}
+                  rows={undefined}
+                  type="text"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-typeItem-64 MuiGrid-grid-xs-12-93 MuiGrid-grid-sm-6-100"
+          >
+            <div
+              className="MuiFormControl-root-146 MuiFormControl-fullWidth-149"
+              onBlur={[Function]}
+              onFocus={[Function]}
+              required={false}
+            >
+              <label
+                className="MuiFormLabel-root-156 MuiInputLabel-root-150 MuiInputLabel-formControl-151 MuiInputLabel-animated-154"
+                htmlFor="min_average_covered_charges"
+              >
+                Min Average Covered Charges
+              </label>
+              <div
+                className="MuiInput-root-160 MuiInput-fullWidth-174 MuiInput-formControl-161 MuiInput-inkbar-162 MuiInput-underline-168"
+                label="Min Average Covered Charges"
+                onBlur={[Function]}
+                onFocus={[Function]}
+              >
+                <input
+                  autoComplete={undefined}
+                  autoFocus={undefined}
+                  className="MuiInput-input-164 MuiInput-inputSingleline-171"
+                  defaultValue={undefined}
+                  disabled={false}
+                  id="min_average_covered_charges"
+                  name={undefined}
+                  onChange={[Function]}
+                  onKeyDown={[Function]}
+                  onKeyUp={undefined}
+                  onMouseUp={[Function]}
+                  placeholder={undefined}
+                  readOnly={undefined}
+                  required={undefined}
+                  rows={undefined}
+                  type="text"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-typeItem-64 MuiGrid-grid-xs-12-93 MuiGrid-grid-sm-6-100"
+          >
+            <div
+              className="MuiFormControl-root-146 MuiFormControl-fullWidth-149"
+              onBlur={[Function]}
+              onFocus={[Function]}
+              required={false}
+            >
+              <label
+                className="MuiFormLabel-root-156 MuiInputLabel-root-150 MuiInputLabel-formControl-151 MuiInputLabel-animated-154"
+                htmlFor="max_average_medicare_payment"
+              >
+                Max Average Medicare Payment
+              </label>
+              <div
+                className="MuiInput-root-160 MuiInput-fullWidth-174 MuiInput-formControl-161 MuiInput-inkbar-162 MuiInput-underline-168"
+                label="Max Average Medicare Payment"
+                onBlur={[Function]}
+                onFocus={[Function]}
+              >
+                <input
+                  autoComplete={undefined}
+                  autoFocus={undefined}
+                  className="MuiInput-input-164 MuiInput-inputSingleline-171"
+                  defaultValue={undefined}
+                  disabled={false}
+                  id="max_average_medicare_payment"
+                  name={undefined}
+                  onChange={[Function]}
+                  onKeyDown={[Function]}
+                  onKeyUp={undefined}
+                  onMouseUp={[Function]}
+                  placeholder={undefined}
+                  readOnly={undefined}
+                  required={undefined}
+                  rows={undefined}
+                  type="text"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-typeItem-64 MuiGrid-grid-xs-12-93 MuiGrid-grid-sm-6-100"
+          >
+            <div
+              className="MuiFormControl-root-146 MuiFormControl-fullWidth-149"
+              onBlur={[Function]}
+              onFocus={[Function]}
+              required={false}
+            >
+              <label
+                className="MuiFormLabel-root-156 MuiInputLabel-root-150 MuiInputLabel-formControl-151 MuiInputLabel-animated-154"
+                htmlFor="min_average_medicare_payment"
+              >
+                Min Average Medicare Payment
+              </label>
+              <div
+                className="MuiInput-root-160 MuiInput-fullWidth-174 MuiInput-formControl-161 MuiInput-inkbar-162 MuiInput-underline-168"
+                label="Min Average Medicare Payment"
+                onBlur={[Function]}
+                onFocus={[Function]}
+              >
+                <input
+                  autoComplete={undefined}
+                  autoFocus={undefined}
+                  className="MuiInput-input-164 MuiInput-inputSingleline-171"
+                  defaultValue={undefined}
+                  disabled={false}
+                  id="min_average_medicare_payment"
+                  name={undefined}
+                  onChange={[Function]}
+                  onKeyDown={[Function]}
+                  onKeyUp={undefined}
+                  onMouseUp={[Function]}
+                  placeholder={undefined}
+                  readOnly={undefined}
+                  required={undefined}
+                  rows={undefined}
+                  type="text"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-typeItem-64 MuiGrid-grid-xs-12-93"
+          >
+            <div
+              className="MuiFormControl-root-146 MuiFormControl-marginNormal-147 MuiFormControl-fullWidth-149"
+              onBlur={[Function]}
+              onFocus={[Function]}
+              required={false}
+            >
+              <label
+                className="MuiFormLabel-root-156 MuiInputLabel-root-150 MuiInputLabel-formControl-151 MuiInputLabel-animated-154"
+                htmlFor={undefined}
+              >
+                The state that the provider is from
+              </label>
+              <div
+                className="MuiInput-root-160 MuiInput-formControl-161 MuiInput-inkbar-162 MuiInput-underline-168"
+                onBlur={[Function]}
+                onFocus={[Function]}
+              >
+                <input
+                  autoComplete={undefined}
+                  autoFocus={undefined}
+                  className="MuiInput-input-164 MuiInput-inputSingleline-171"
+                  defaultValue={undefined}
+                  disabled={false}
+                  id={undefined}
+                  name={undefined}
+                  onChange={[Function]}
+                  onKeyDown={undefined}
+                  onKeyUp={undefined}
+                  placeholder={undefined}
+                  readOnly={undefined}
+                  required={undefined}
+                  rows={undefined}
+                  type="text"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+          <hr />
+          <div
+            className="MuiGrid-typeItem-64 MuiGrid-grid-xs-12-93"
+          >
+            <div
+              className="MuiFormGroup-root-175 MuiFormGroup-row-176"
+            >
+              <label
+                className="MuiFormControlLabel-root-177"
+                style={
+                  Object {
+                    "minWidth": "45%",
+                  }
+                }
+              >
+                <span
+                  className="MuiButtonBase-root-197 MuiIconButton-root-188 MuiSwitchBase-root-183 MuiSwitchBase-default-185 MuiCheckbox-default-180"
+                  disabled={false}
+                  onBlur={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  onKeyUp={[Function]}
+                  onMouseDown={[Function]}
+                  onMouseLeave={[Function]}
+                  onMouseUp={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  role={undefined}
+                  tabIndex={null}
+                >
+                  <span
+                    className="MuiIconButton-label-194"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      className="MuiSvgIcon-root-199"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                      />
+                    </svg>
+                    <input
+                      checked={false}
+                      className="MuiSwitchBase-input-184"
+                      disabled={false}
+                      name={undefined}
+                      onChange={[Function]}
+                      tabIndex={undefined}
+                      type="checkbox"
+                      value="providerName"
+                    />
+                  </span>
+                  <span
+                    className="MuiTouchRipple-root-200"
+                  />
+                </span>
+                <p
+                  className="MuiTypography-root-41 MuiTypography-body1-50 MuiFormControlLabel-label-179"
+                >
+                  Name
+                </p>
+              </label>
+              <label
+                className="MuiFormControlLabel-root-177"
+                style={
+                  Object {
+                    "minWidth": "45%",
+                  }
+                }
+              >
+                <span
+                  className="MuiButtonBase-root-197 MuiIconButton-root-188 MuiSwitchBase-root-183 MuiSwitchBase-default-185 MuiCheckbox-default-180"
+                  disabled={false}
+                  onBlur={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  onKeyUp={[Function]}
+                  onMouseDown={[Function]}
+                  onMouseLeave={[Function]}
+                  onMouseUp={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  role={undefined}
+                  tabIndex={null}
+                >
+                  <span
+                    className="MuiIconButton-label-194"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      className="MuiSvgIcon-root-199"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                      />
+                    </svg>
+                    <input
+                      checked={false}
+                      className="MuiSwitchBase-input-184"
+                      disabled={false}
+                      name={undefined}
+                      onChange={[Function]}
+                      tabIndex={undefined}
+                      type="checkbox"
+                      value="providerStreetAddress"
+                    />
+                  </span>
+                  <span
+                    className="MuiTouchRipple-root-200"
+                  />
+                </span>
+                <p
+                  className="MuiTypography-root-41 MuiTypography-body1-50 MuiFormControlLabel-label-179"
+                >
+                  Street Address
+                </p>
+              </label>
+              <label
+                className="MuiFormControlLabel-root-177"
+                style={
+                  Object {
+                    "minWidth": "45%",
+                  }
+                }
+              >
+                <span
+                  className="MuiButtonBase-root-197 MuiIconButton-root-188 MuiSwitchBase-root-183 MuiSwitchBase-default-185 MuiCheckbox-default-180"
+                  disabled={false}
+                  onBlur={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  onKeyUp={[Function]}
+                  onMouseDown={[Function]}
+                  onMouseLeave={[Function]}
+                  onMouseUp={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  role={undefined}
+                  tabIndex={null}
+                >
+                  <span
+                    className="MuiIconButton-label-194"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      className="MuiSvgIcon-root-199"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                      />
+                    </svg>
+                    <input
+                      checked={false}
+                      className="MuiSwitchBase-input-184"
+                      disabled={false}
+                      name={undefined}
+                      onChange={[Function]}
+                      tabIndex={undefined}
+                      type="checkbox"
+                      value="providerCity"
+                    />
+                  </span>
+                  <span
+                    className="MuiTouchRipple-root-200"
+                  />
+                </span>
+                <p
+                  className="MuiTypography-root-41 MuiTypography-body1-50 MuiFormControlLabel-label-179"
+                >
+                  City
+                </p>
+              </label>
+              <label
+                className="MuiFormControlLabel-root-177"
+                style={
+                  Object {
+                    "minWidth": "45%",
+                  }
+                }
+              >
+                <span
+                  className="MuiButtonBase-root-197 MuiIconButton-root-188 MuiSwitchBase-root-183 MuiSwitchBase-default-185 MuiCheckbox-default-180"
+                  disabled={false}
+                  onBlur={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  onKeyUp={[Function]}
+                  onMouseDown={[Function]}
+                  onMouseLeave={[Function]}
+                  onMouseUp={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  role={undefined}
+                  tabIndex={null}
+                >
+                  <span
+                    className="MuiIconButton-label-194"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      className="MuiSvgIcon-root-199"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                      />
+                    </svg>
+                    <input
+                      checked={false}
+                      className="MuiSwitchBase-input-184"
+                      disabled={false}
+                      name={undefined}
+                      onChange={[Function]}
+                      tabIndex={undefined}
+                      type="checkbox"
+                      value="providerState"
+                    />
+                  </span>
+                  <span
+                    className="MuiTouchRipple-root-200"
+                  />
+                </span>
+                <p
+                  className="MuiTypography-root-41 MuiTypography-body1-50 MuiFormControlLabel-label-179"
+                >
+                  State
+                </p>
+              </label>
+              <label
+                className="MuiFormControlLabel-root-177"
+                style={
+                  Object {
+                    "minWidth": "45%",
+                  }
+                }
+              >
+                <span
+                  className="MuiButtonBase-root-197 MuiIconButton-root-188 MuiSwitchBase-root-183 MuiSwitchBase-default-185 MuiCheckbox-default-180"
+                  disabled={false}
+                  onBlur={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  onKeyUp={[Function]}
+                  onMouseDown={[Function]}
+                  onMouseLeave={[Function]}
+                  onMouseUp={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  role={undefined}
+                  tabIndex={null}
+                >
+                  <span
+                    className="MuiIconButton-label-194"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      className="MuiSvgIcon-root-199"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                      />
+                    </svg>
+                    <input
+                      checked={false}
+                      className="MuiSwitchBase-input-184"
+                      disabled={false}
+                      name={undefined}
+                      onChange={[Function]}
+                      tabIndex={undefined}
+                      type="checkbox"
+                      value="providerZipCode"
+                    />
+                  </span>
+                  <span
+                    className="MuiTouchRipple-root-200"
+                  />
+                </span>
+                <p
+                  className="MuiTypography-root-41 MuiTypography-body1-50 MuiFormControlLabel-label-179"
+                >
+                  Zip Code
+                </p>
+              </label>
+              <label
+                className="MuiFormControlLabel-root-177"
+                style={
+                  Object {
+                    "minWidth": "45%",
+                  }
+                }
+              >
+                <span
+                  className="MuiButtonBase-root-197 MuiIconButton-root-188 MuiSwitchBase-root-183 MuiSwitchBase-default-185 MuiCheckbox-default-180"
+                  disabled={false}
+                  onBlur={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  onKeyUp={[Function]}
+                  onMouseDown={[Function]}
+                  onMouseLeave={[Function]}
+                  onMouseUp={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  role={undefined}
+                  tabIndex={null}
+                >
+                  <span
+                    className="MuiIconButton-label-194"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      className="MuiSvgIcon-root-199"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                      />
+                    </svg>
+                    <input
+                      checked={false}
+                      className="MuiSwitchBase-input-184"
+                      disabled={false}
+                      name={undefined}
+                      onChange={[Function]}
+                      tabIndex={undefined}
+                      type="checkbox"
+                      value="hospitalReferralRegionDescription"
+                    />
+                  </span>
+                  <span
+                    className="MuiTouchRipple-root-200"
+                  />
+                </span>
+                <p
+                  className="MuiTypography-root-41 MuiTypography-body1-50 MuiFormControlLabel-label-179"
+                >
+                  Hospital Referral Region
+                </p>
+              </label>
+              <label
+                className="MuiFormControlLabel-root-177"
+                style={
+                  Object {
+                    "minWidth": "45%",
+                  }
+                }
+              >
+                <span
+                  className="MuiButtonBase-root-197 MuiIconButton-root-188 MuiSwitchBase-root-183 MuiSwitchBase-default-185 MuiCheckbox-default-180"
+                  disabled={false}
+                  onBlur={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  onKeyUp={[Function]}
+                  onMouseDown={[Function]}
+                  onMouseLeave={[Function]}
+                  onMouseUp={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  role={undefined}
+                  tabIndex={null}
+                >
+                  <span
+                    className="MuiIconButton-label-194"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      className="MuiSvgIcon-root-199"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                      />
+                    </svg>
+                    <input
+                      checked={false}
+                      className="MuiSwitchBase-input-184"
+                      disabled={false}
+                      name={undefined}
+                      onChange={[Function]}
+                      tabIndex={undefined}
+                      type="checkbox"
+                      value="totalDischarges"
+                    />
+                  </span>
+                  <span
+                    className="MuiTouchRipple-root-200"
+                  />
+                </span>
+                <p
+                  className="MuiTypography-root-41 MuiTypography-body1-50 MuiFormControlLabel-label-179"
+                >
+                  Total Discharges
+                </p>
+              </label>
+              <label
+                className="MuiFormControlLabel-root-177"
+                style={
+                  Object {
+                    "minWidth": "45%",
+                  }
+                }
+              >
+                <span
+                  className="MuiButtonBase-root-197 MuiIconButton-root-188 MuiSwitchBase-root-183 MuiSwitchBase-default-185 MuiCheckbox-default-180"
+                  disabled={false}
+                  onBlur={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  onKeyUp={[Function]}
+                  onMouseDown={[Function]}
+                  onMouseLeave={[Function]}
+                  onMouseUp={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  role={undefined}
+                  tabIndex={null}
+                >
+                  <span
+                    className="MuiIconButton-label-194"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      className="MuiSvgIcon-root-199"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                      />
+                    </svg>
+                    <input
+                      checked={false}
+                      className="MuiSwitchBase-input-184"
+                      disabled={false}
+                      name={undefined}
+                      onChange={[Function]}
+                      tabIndex={undefined}
+                      type="checkbox"
+                      value="averageCoveredCharges"
+                    />
+                  </span>
+                  <span
+                    className="MuiTouchRipple-root-200"
+                  />
+                </span>
+                <p
+                  className="MuiTypography-root-41 MuiTypography-body1-50 MuiFormControlLabel-label-179"
+                >
+                  Average Covered Charges
+                </p>
+              </label>
+              <label
+                className="MuiFormControlLabel-root-177"
+                style={
+                  Object {
+                    "minWidth": "45%",
+                  }
+                }
+              >
+                <span
+                  className="MuiButtonBase-root-197 MuiIconButton-root-188 MuiSwitchBase-root-183 MuiSwitchBase-default-185 MuiCheckbox-default-180"
+                  disabled={false}
+                  onBlur={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  onKeyUp={[Function]}
+                  onMouseDown={[Function]}
+                  onMouseLeave={[Function]}
+                  onMouseUp={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  role={undefined}
+                  tabIndex={null}
+                >
+                  <span
+                    className="MuiIconButton-label-194"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      className="MuiSvgIcon-root-199"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                      />
+                    </svg>
+                    <input
+                      checked={false}
+                      className="MuiSwitchBase-input-184"
+                      disabled={false}
+                      name={undefined}
+                      onChange={[Function]}
+                      tabIndex={undefined}
+                      type="checkbox"
+                      value="averageTotalPayments"
+                    />
+                  </span>
+                  <span
+                    className="MuiTouchRipple-root-200"
+                  />
+                </span>
+                <p
+                  className="MuiTypography-root-41 MuiTypography-body1-50 MuiFormControlLabel-label-179"
+                >
+                  Average Total Payments
+                </p>
+              </label>
+              <label
+                className="MuiFormControlLabel-root-177"
+                style={
+                  Object {
+                    "minWidth": "45%",
+                  }
+                }
+              >
+                <span
+                  className="MuiButtonBase-root-197 MuiIconButton-root-188 MuiSwitchBase-root-183 MuiSwitchBase-default-185 MuiCheckbox-default-180"
+                  disabled={false}
+                  onBlur={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  onKeyUp={[Function]}
+                  onMouseDown={[Function]}
+                  onMouseLeave={[Function]}
+                  onMouseUp={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  role={undefined}
+                  tabIndex={null}
+                >
+                  <span
+                    className="MuiIconButton-label-194"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      className="MuiSvgIcon-root-199"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                      />
+                    </svg>
+                    <input
+                      checked={false}
+                      className="MuiSwitchBase-input-184"
+                      disabled={false}
+                      name={undefined}
+                      onChange={[Function]}
+                      tabIndex={undefined}
+                      type="checkbox"
+                      value="averageMedicarePayments"
+                    />
+                  </span>
+                  <span
+                    className="MuiTouchRipple-root-200"
+                  />
+                </span>
+                <p
+                  className="MuiTypography-root-41 MuiTypography-body1-50 MuiFormControlLabel-label-179"
+                >
+                  Average Medicare Payments
+                </p>
+              </label>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-typeItem-64 MuiGrid-grid-xs-12-93"
+          >
+            <button
+              className="MuiButtonBase-root-197 MuiButton-root-207 MuiButton-raised-214 MuiButton-raisedPrimary-216 fullWidth"
+              disabled={false}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchStart={[Function]}
+              role="button"
+              tabIndex={0}
+              type="button"
+            >
+              <span
+                className="MuiButton-label-209"
+              >
+                Search
+              </span>
+              <span
+                className="MuiTouchRipple-root-200"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="MuiGrid-typeItem-64 MuiGrid-grid-xs-12-93 MuiGrid-grid-lg-6-126 MuiGrid-grid-xl-8-141 results"
+    >
+      <div
+        className="message"
+      >
+        <h1
+          className="MuiTypography-root-41 MuiTypography-display1-45 MuiTypography-gutterBottom-58"
+        >
+          No providers match the search criteria. Please try again.
+        </h1>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`App renders correctly on landing 1`] = `
+<div
+  className="App"
+>
+  <header
+    className="MuiPaper-root-12 MuiPaper-shadow4-18 MuiAppBar-root-5 MuiAppBar-positionStatic-8 MuiAppBar-colorPrimary-10 Header-root-1"
+  >
+    <div
+      className="MuiToolbar-root-39 MuiToolbar-gutters-40 Header-container-3"
+    >
+      <div
+        className="Header-flex-2"
+      >
+        <h2
+          className="MuiTypography-root-41 MuiTypography-title-47 MuiTypography-colorInherit-60 Header-brand-4"
+        >
+          IPPS Provider Dashboard
+        </h2>
+      </div>
+    </div>
+  </header>
+  <div
+    className="MuiGrid-typeContainer-63 MuiGrid-spacing-xs-16-78"
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+  >
+    <div
+      className="MuiGrid-typeItem-64 MuiGrid-grid-xs-12-93 MuiGrid-grid-lg-6-126 MuiGrid-grid-xl-4-137"
+    >
+      <div
+        className="SearchPanel"
+      >
+        <div
+          className="MuiGrid-typeContainer-63 MuiGrid-spacing-xs-24-79"
+        >
+          <div
+            className="MuiGrid-typeItem-64 MuiGrid-grid-xs-12-93 MuiGrid-grid-sm-6-100"
+          >
+            <div
+              className="MuiFormControl-root-146 MuiFormControl-marginNormal-147 MuiFormControl-fullWidth-149"
+              onBlur={[Function]}
+              onFocus={[Function]}
+              required={false}
+            >
+              <label
+                className="MuiFormLabel-root-156 MuiInputLabel-root-150 MuiInputLabel-formControl-151 MuiInputLabel-animated-154"
+                htmlFor={undefined}
+              >
+                Max number of Total Discharges
+              </label>
+              <div
+                className="MuiInput-root-160 MuiInput-formControl-161 MuiInput-inkbar-162 MuiInput-underline-168"
+                onBlur={[Function]}
+                onFocus={[Function]}
+              >
+                <input
+                  autoComplete={undefined}
+                  autoFocus={undefined}
+                  className="MuiInput-input-164 MuiInput-inputSingleline-171"
+                  defaultValue={undefined}
+                  disabled={false}
+                  id={undefined}
+                  name={undefined}
+                  onChange={[Function]}
+                  onKeyDown={undefined}
+                  onKeyUp={undefined}
+                  placeholder={undefined}
+                  readOnly={undefined}
+                  required={undefined}
+                  rows={undefined}
+                  type="number"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-typeItem-64 MuiGrid-grid-xs-12-93 MuiGrid-grid-sm-6-100"
+          >
+            <div
+              className="MuiFormControl-root-146 MuiFormControl-marginNormal-147 MuiFormControl-fullWidth-149"
+              onBlur={[Function]}
+              onFocus={[Function]}
+              required={false}
+            >
+              <label
+                className="MuiFormLabel-root-156 MuiInputLabel-root-150 MuiInputLabel-formControl-151 MuiInputLabel-animated-154"
+                htmlFor={undefined}
+              >
+                Min number of Total Discharges
+              </label>
+              <div
+                className="MuiInput-root-160 MuiInput-formControl-161 MuiInput-inkbar-162 MuiInput-underline-168"
+                onBlur={[Function]}
+                onFocus={[Function]}
+              >
+                <input
+                  autoComplete={undefined}
+                  autoFocus={undefined}
+                  className="MuiInput-input-164 MuiInput-inputSingleline-171"
+                  defaultValue={undefined}
+                  disabled={false}
+                  id={undefined}
+                  name={undefined}
+                  onChange={[Function]}
+                  onKeyDown={undefined}
+                  onKeyUp={undefined}
+                  placeholder={undefined}
+                  readOnly={undefined}
+                  required={undefined}
+                  rows={undefined}
+                  type="number"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-typeItem-64 MuiGrid-grid-xs-12-93 MuiGrid-grid-sm-6-100"
+          >
+            <div
+              className="MuiFormControl-root-146 MuiFormControl-fullWidth-149"
+              onBlur={[Function]}
+              onFocus={[Function]}
+              required={false}
+            >
+              <label
+                className="MuiFormLabel-root-156 MuiInputLabel-root-150 MuiInputLabel-formControl-151 MuiInputLabel-animated-154"
+                htmlFor="max_average_covered_charges"
+              >
+                Max Average Covered Charges
+              </label>
+              <div
+                className="MuiInput-root-160 MuiInput-fullWidth-174 MuiInput-formControl-161 MuiInput-inkbar-162 MuiInput-underline-168"
+                label="Max Average Covered Charges"
+                onBlur={[Function]}
+                onFocus={[Function]}
+              >
+                <input
+                  autoComplete={undefined}
+                  autoFocus={undefined}
+                  className="MuiInput-input-164 MuiInput-inputSingleline-171"
+                  defaultValue={undefined}
+                  disabled={false}
+                  id="max_average_covered_charges"
+                  name={undefined}
+                  onChange={[Function]}
+                  onKeyDown={[Function]}
+                  onKeyUp={undefined}
+                  onMouseUp={[Function]}
+                  placeholder={undefined}
+                  readOnly={undefined}
+                  required={undefined}
+                  rows={undefined}
+                  type="text"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-typeItem-64 MuiGrid-grid-xs-12-93 MuiGrid-grid-sm-6-100"
+          >
+            <div
+              className="MuiFormControl-root-146 MuiFormControl-fullWidth-149"
+              onBlur={[Function]}
+              onFocus={[Function]}
+              required={false}
+            >
+              <label
+                className="MuiFormLabel-root-156 MuiInputLabel-root-150 MuiInputLabel-formControl-151 MuiInputLabel-animated-154"
+                htmlFor="min_average_covered_charges"
+              >
+                Min Average Covered Charges
+              </label>
+              <div
+                className="MuiInput-root-160 MuiInput-fullWidth-174 MuiInput-formControl-161 MuiInput-inkbar-162 MuiInput-underline-168"
+                label="Min Average Covered Charges"
+                onBlur={[Function]}
+                onFocus={[Function]}
+              >
+                <input
+                  autoComplete={undefined}
+                  autoFocus={undefined}
+                  className="MuiInput-input-164 MuiInput-inputSingleline-171"
+                  defaultValue={undefined}
+                  disabled={false}
+                  id="min_average_covered_charges"
+                  name={undefined}
+                  onChange={[Function]}
+                  onKeyDown={[Function]}
+                  onKeyUp={undefined}
+                  onMouseUp={[Function]}
+                  placeholder={undefined}
+                  readOnly={undefined}
+                  required={undefined}
+                  rows={undefined}
+                  type="text"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-typeItem-64 MuiGrid-grid-xs-12-93 MuiGrid-grid-sm-6-100"
+          >
+            <div
+              className="MuiFormControl-root-146 MuiFormControl-fullWidth-149"
+              onBlur={[Function]}
+              onFocus={[Function]}
+              required={false}
+            >
+              <label
+                className="MuiFormLabel-root-156 MuiInputLabel-root-150 MuiInputLabel-formControl-151 MuiInputLabel-animated-154"
+                htmlFor="max_average_medicare_payment"
+              >
+                Max Average Medicare Payment
+              </label>
+              <div
+                className="MuiInput-root-160 MuiInput-fullWidth-174 MuiInput-formControl-161 MuiInput-inkbar-162 MuiInput-underline-168"
+                label="Max Average Medicare Payment"
+                onBlur={[Function]}
+                onFocus={[Function]}
+              >
+                <input
+                  autoComplete={undefined}
+                  autoFocus={undefined}
+                  className="MuiInput-input-164 MuiInput-inputSingleline-171"
+                  defaultValue={undefined}
+                  disabled={false}
+                  id="max_average_medicare_payment"
+                  name={undefined}
+                  onChange={[Function]}
+                  onKeyDown={[Function]}
+                  onKeyUp={undefined}
+                  onMouseUp={[Function]}
+                  placeholder={undefined}
+                  readOnly={undefined}
+                  required={undefined}
+                  rows={undefined}
+                  type="text"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-typeItem-64 MuiGrid-grid-xs-12-93 MuiGrid-grid-sm-6-100"
+          >
+            <div
+              className="MuiFormControl-root-146 MuiFormControl-fullWidth-149"
+              onBlur={[Function]}
+              onFocus={[Function]}
+              required={false}
+            >
+              <label
+                className="MuiFormLabel-root-156 MuiInputLabel-root-150 MuiInputLabel-formControl-151 MuiInputLabel-animated-154"
+                htmlFor="min_average_medicare_payment"
+              >
+                Min Average Medicare Payment
+              </label>
+              <div
+                className="MuiInput-root-160 MuiInput-fullWidth-174 MuiInput-formControl-161 MuiInput-inkbar-162 MuiInput-underline-168"
+                label="Min Average Medicare Payment"
+                onBlur={[Function]}
+                onFocus={[Function]}
+              >
+                <input
+                  autoComplete={undefined}
+                  autoFocus={undefined}
+                  className="MuiInput-input-164 MuiInput-inputSingleline-171"
+                  defaultValue={undefined}
+                  disabled={false}
+                  id="min_average_medicare_payment"
+                  name={undefined}
+                  onChange={[Function]}
+                  onKeyDown={[Function]}
+                  onKeyUp={undefined}
+                  onMouseUp={[Function]}
+                  placeholder={undefined}
+                  readOnly={undefined}
+                  required={undefined}
+                  rows={undefined}
+                  type="text"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-typeItem-64 MuiGrid-grid-xs-12-93"
+          >
+            <div
+              className="MuiFormControl-root-146 MuiFormControl-marginNormal-147 MuiFormControl-fullWidth-149"
+              onBlur={[Function]}
+              onFocus={[Function]}
+              required={false}
+            >
+              <label
+                className="MuiFormLabel-root-156 MuiInputLabel-root-150 MuiInputLabel-formControl-151 MuiInputLabel-animated-154"
+                htmlFor={undefined}
+              >
+                The state that the provider is from
+              </label>
+              <div
+                className="MuiInput-root-160 MuiInput-formControl-161 MuiInput-inkbar-162 MuiInput-underline-168"
+                onBlur={[Function]}
+                onFocus={[Function]}
+              >
+                <input
+                  autoComplete={undefined}
+                  autoFocus={undefined}
+                  className="MuiInput-input-164 MuiInput-inputSingleline-171"
+                  defaultValue={undefined}
+                  disabled={false}
+                  id={undefined}
+                  name={undefined}
+                  onChange={[Function]}
+                  onKeyDown={undefined}
+                  onKeyUp={undefined}
+                  placeholder={undefined}
+                  readOnly={undefined}
+                  required={undefined}
+                  rows={undefined}
+                  type="text"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+          <hr />
+          <div
+            className="MuiGrid-typeItem-64 MuiGrid-grid-xs-12-93"
+          >
+            <div
+              className="MuiFormGroup-root-175 MuiFormGroup-row-176"
+            >
+              <label
+                className="MuiFormControlLabel-root-177"
+                style={
+                  Object {
+                    "minWidth": "45%",
+                  }
+                }
+              >
+                <span
+                  className="MuiButtonBase-root-197 MuiIconButton-root-188 MuiSwitchBase-root-183 MuiSwitchBase-default-185 MuiCheckbox-default-180"
+                  disabled={false}
+                  onBlur={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  onKeyUp={[Function]}
+                  onMouseDown={[Function]}
+                  onMouseLeave={[Function]}
+                  onMouseUp={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  role={undefined}
+                  tabIndex={null}
+                >
+                  <span
+                    className="MuiIconButton-label-194"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      className="MuiSvgIcon-root-199"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                      />
+                    </svg>
+                    <input
+                      checked={false}
+                      className="MuiSwitchBase-input-184"
+                      disabled={false}
+                      name={undefined}
+                      onChange={[Function]}
+                      tabIndex={undefined}
+                      type="checkbox"
+                      value="providerName"
+                    />
+                  </span>
+                  <span
+                    className="MuiTouchRipple-root-200"
+                  />
+                </span>
+                <p
+                  className="MuiTypography-root-41 MuiTypography-body1-50 MuiFormControlLabel-label-179"
+                >
+                  Name
+                </p>
+              </label>
+              <label
+                className="MuiFormControlLabel-root-177"
+                style={
+                  Object {
+                    "minWidth": "45%",
+                  }
+                }
+              >
+                <span
+                  className="MuiButtonBase-root-197 MuiIconButton-root-188 MuiSwitchBase-root-183 MuiSwitchBase-default-185 MuiCheckbox-default-180"
+                  disabled={false}
+                  onBlur={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  onKeyUp={[Function]}
+                  onMouseDown={[Function]}
+                  onMouseLeave={[Function]}
+                  onMouseUp={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  role={undefined}
+                  tabIndex={null}
+                >
+                  <span
+                    className="MuiIconButton-label-194"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      className="MuiSvgIcon-root-199"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                      />
+                    </svg>
+                    <input
+                      checked={false}
+                      className="MuiSwitchBase-input-184"
+                      disabled={false}
+                      name={undefined}
+                      onChange={[Function]}
+                      tabIndex={undefined}
+                      type="checkbox"
+                      value="providerStreetAddress"
+                    />
+                  </span>
+                  <span
+                    className="MuiTouchRipple-root-200"
+                  />
+                </span>
+                <p
+                  className="MuiTypography-root-41 MuiTypography-body1-50 MuiFormControlLabel-label-179"
+                >
+                  Street Address
+                </p>
+              </label>
+              <label
+                className="MuiFormControlLabel-root-177"
+                style={
+                  Object {
+                    "minWidth": "45%",
+                  }
+                }
+              >
+                <span
+                  className="MuiButtonBase-root-197 MuiIconButton-root-188 MuiSwitchBase-root-183 MuiSwitchBase-default-185 MuiCheckbox-default-180"
+                  disabled={false}
+                  onBlur={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  onKeyUp={[Function]}
+                  onMouseDown={[Function]}
+                  onMouseLeave={[Function]}
+                  onMouseUp={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  role={undefined}
+                  tabIndex={null}
+                >
+                  <span
+                    className="MuiIconButton-label-194"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      className="MuiSvgIcon-root-199"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                      />
+                    </svg>
+                    <input
+                      checked={false}
+                      className="MuiSwitchBase-input-184"
+                      disabled={false}
+                      name={undefined}
+                      onChange={[Function]}
+                      tabIndex={undefined}
+                      type="checkbox"
+                      value="providerCity"
+                    />
+                  </span>
+                  <span
+                    className="MuiTouchRipple-root-200"
+                  />
+                </span>
+                <p
+                  className="MuiTypography-root-41 MuiTypography-body1-50 MuiFormControlLabel-label-179"
+                >
+                  City
+                </p>
+              </label>
+              <label
+                className="MuiFormControlLabel-root-177"
+                style={
+                  Object {
+                    "minWidth": "45%",
+                  }
+                }
+              >
+                <span
+                  className="MuiButtonBase-root-197 MuiIconButton-root-188 MuiSwitchBase-root-183 MuiSwitchBase-default-185 MuiCheckbox-default-180"
+                  disabled={false}
+                  onBlur={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  onKeyUp={[Function]}
+                  onMouseDown={[Function]}
+                  onMouseLeave={[Function]}
+                  onMouseUp={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  role={undefined}
+                  tabIndex={null}
+                >
+                  <span
+                    className="MuiIconButton-label-194"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      className="MuiSvgIcon-root-199"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                      />
+                    </svg>
+                    <input
+                      checked={false}
+                      className="MuiSwitchBase-input-184"
+                      disabled={false}
+                      name={undefined}
+                      onChange={[Function]}
+                      tabIndex={undefined}
+                      type="checkbox"
+                      value="providerState"
+                    />
+                  </span>
+                  <span
+                    className="MuiTouchRipple-root-200"
+                  />
+                </span>
+                <p
+                  className="MuiTypography-root-41 MuiTypography-body1-50 MuiFormControlLabel-label-179"
+                >
+                  State
+                </p>
+              </label>
+              <label
+                className="MuiFormControlLabel-root-177"
+                style={
+                  Object {
+                    "minWidth": "45%",
+                  }
+                }
+              >
+                <span
+                  className="MuiButtonBase-root-197 MuiIconButton-root-188 MuiSwitchBase-root-183 MuiSwitchBase-default-185 MuiCheckbox-default-180"
+                  disabled={false}
+                  onBlur={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  onKeyUp={[Function]}
+                  onMouseDown={[Function]}
+                  onMouseLeave={[Function]}
+                  onMouseUp={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  role={undefined}
+                  tabIndex={null}
+                >
+                  <span
+                    className="MuiIconButton-label-194"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      className="MuiSvgIcon-root-199"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                      />
+                    </svg>
+                    <input
+                      checked={false}
+                      className="MuiSwitchBase-input-184"
+                      disabled={false}
+                      name={undefined}
+                      onChange={[Function]}
+                      tabIndex={undefined}
+                      type="checkbox"
+                      value="providerZipCode"
+                    />
+                  </span>
+                  <span
+                    className="MuiTouchRipple-root-200"
+                  />
+                </span>
+                <p
+                  className="MuiTypography-root-41 MuiTypography-body1-50 MuiFormControlLabel-label-179"
+                >
+                  Zip Code
+                </p>
+              </label>
+              <label
+                className="MuiFormControlLabel-root-177"
+                style={
+                  Object {
+                    "minWidth": "45%",
+                  }
+                }
+              >
+                <span
+                  className="MuiButtonBase-root-197 MuiIconButton-root-188 MuiSwitchBase-root-183 MuiSwitchBase-default-185 MuiCheckbox-default-180"
+                  disabled={false}
+                  onBlur={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  onKeyUp={[Function]}
+                  onMouseDown={[Function]}
+                  onMouseLeave={[Function]}
+                  onMouseUp={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  role={undefined}
+                  tabIndex={null}
+                >
+                  <span
+                    className="MuiIconButton-label-194"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      className="MuiSvgIcon-root-199"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                      />
+                    </svg>
+                    <input
+                      checked={false}
+                      className="MuiSwitchBase-input-184"
+                      disabled={false}
+                      name={undefined}
+                      onChange={[Function]}
+                      tabIndex={undefined}
+                      type="checkbox"
+                      value="hospitalReferralRegionDescription"
+                    />
+                  </span>
+                  <span
+                    className="MuiTouchRipple-root-200"
+                  />
+                </span>
+                <p
+                  className="MuiTypography-root-41 MuiTypography-body1-50 MuiFormControlLabel-label-179"
+                >
+                  Hospital Referral Region
+                </p>
+              </label>
+              <label
+                className="MuiFormControlLabel-root-177"
+                style={
+                  Object {
+                    "minWidth": "45%",
+                  }
+                }
+              >
+                <span
+                  className="MuiButtonBase-root-197 MuiIconButton-root-188 MuiSwitchBase-root-183 MuiSwitchBase-default-185 MuiCheckbox-default-180"
+                  disabled={false}
+                  onBlur={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  onKeyUp={[Function]}
+                  onMouseDown={[Function]}
+                  onMouseLeave={[Function]}
+                  onMouseUp={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  role={undefined}
+                  tabIndex={null}
+                >
+                  <span
+                    className="MuiIconButton-label-194"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      className="MuiSvgIcon-root-199"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                      />
+                    </svg>
+                    <input
+                      checked={false}
+                      className="MuiSwitchBase-input-184"
+                      disabled={false}
+                      name={undefined}
+                      onChange={[Function]}
+                      tabIndex={undefined}
+                      type="checkbox"
+                      value="totalDischarges"
+                    />
+                  </span>
+                  <span
+                    className="MuiTouchRipple-root-200"
+                  />
+                </span>
+                <p
+                  className="MuiTypography-root-41 MuiTypography-body1-50 MuiFormControlLabel-label-179"
+                >
+                  Total Discharges
+                </p>
+              </label>
+              <label
+                className="MuiFormControlLabel-root-177"
+                style={
+                  Object {
+                    "minWidth": "45%",
+                  }
+                }
+              >
+                <span
+                  className="MuiButtonBase-root-197 MuiIconButton-root-188 MuiSwitchBase-root-183 MuiSwitchBase-default-185 MuiCheckbox-default-180"
+                  disabled={false}
+                  onBlur={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  onKeyUp={[Function]}
+                  onMouseDown={[Function]}
+                  onMouseLeave={[Function]}
+                  onMouseUp={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  role={undefined}
+                  tabIndex={null}
+                >
+                  <span
+                    className="MuiIconButton-label-194"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      className="MuiSvgIcon-root-199"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                      />
+                    </svg>
+                    <input
+                      checked={false}
+                      className="MuiSwitchBase-input-184"
+                      disabled={false}
+                      name={undefined}
+                      onChange={[Function]}
+                      tabIndex={undefined}
+                      type="checkbox"
+                      value="averageCoveredCharges"
+                    />
+                  </span>
+                  <span
+                    className="MuiTouchRipple-root-200"
+                  />
+                </span>
+                <p
+                  className="MuiTypography-root-41 MuiTypography-body1-50 MuiFormControlLabel-label-179"
+                >
+                  Average Covered Charges
+                </p>
+              </label>
+              <label
+                className="MuiFormControlLabel-root-177"
+                style={
+                  Object {
+                    "minWidth": "45%",
+                  }
+                }
+              >
+                <span
+                  className="MuiButtonBase-root-197 MuiIconButton-root-188 MuiSwitchBase-root-183 MuiSwitchBase-default-185 MuiCheckbox-default-180"
+                  disabled={false}
+                  onBlur={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  onKeyUp={[Function]}
+                  onMouseDown={[Function]}
+                  onMouseLeave={[Function]}
+                  onMouseUp={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  role={undefined}
+                  tabIndex={null}
+                >
+                  <span
+                    className="MuiIconButton-label-194"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      className="MuiSvgIcon-root-199"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                      />
+                    </svg>
+                    <input
+                      checked={false}
+                      className="MuiSwitchBase-input-184"
+                      disabled={false}
+                      name={undefined}
+                      onChange={[Function]}
+                      tabIndex={undefined}
+                      type="checkbox"
+                      value="averageTotalPayments"
+                    />
+                  </span>
+                  <span
+                    className="MuiTouchRipple-root-200"
+                  />
+                </span>
+                <p
+                  className="MuiTypography-root-41 MuiTypography-body1-50 MuiFormControlLabel-label-179"
+                >
+                  Average Total Payments
+                </p>
+              </label>
+              <label
+                className="MuiFormControlLabel-root-177"
+                style={
+                  Object {
+                    "minWidth": "45%",
+                  }
+                }
+              >
+                <span
+                  className="MuiButtonBase-root-197 MuiIconButton-root-188 MuiSwitchBase-root-183 MuiSwitchBase-default-185 MuiCheckbox-default-180"
+                  disabled={false}
+                  onBlur={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  onKeyUp={[Function]}
+                  onMouseDown={[Function]}
+                  onMouseLeave={[Function]}
+                  onMouseUp={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  role={undefined}
+                  tabIndex={null}
+                >
+                  <span
+                    className="MuiIconButton-label-194"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      className="MuiSvgIcon-root-199"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                      />
+                    </svg>
+                    <input
+                      checked={false}
+                      className="MuiSwitchBase-input-184"
+                      disabled={false}
+                      name={undefined}
+                      onChange={[Function]}
+                      tabIndex={undefined}
+                      type="checkbox"
+                      value="averageMedicarePayments"
+                    />
+                  </span>
+                  <span
+                    className="MuiTouchRipple-root-200"
+                  />
+                </span>
+                <p
+                  className="MuiTypography-root-41 MuiTypography-body1-50 MuiFormControlLabel-label-179"
+                >
+                  Average Medicare Payments
+                </p>
+              </label>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-typeItem-64 MuiGrid-grid-xs-12-93"
+          >
+            <button
+              className="MuiButtonBase-root-197 MuiButton-root-207 MuiButton-raised-214 MuiButton-raisedPrimary-216 fullWidth"
+              disabled={false}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchStart={[Function]}
+              role="button"
+              tabIndex={0}
+              type="button"
+            >
+              <span
+                className="MuiButton-label-209"
+              >
+                Search
+              </span>
+              <span
+                className="MuiTouchRipple-root-200"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="MuiGrid-typeItem-64 MuiGrid-grid-xs-12-93 MuiGrid-grid-lg-6-126 MuiGrid-grid-xl-8-141 results"
+    >
+      <div
+        className="message"
+      >
+        <h1
+          className="MuiTypography-root-41 MuiTypography-display1-45 MuiTypography-gutterBottom-58"
+        >
+          Your search results will appear here.
+        </h1>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`App renders correctly while fetching data 1`] = `
+<div
+  className="App"
+>
+  <header
+    className="MuiPaper-root-12 MuiPaper-shadow4-18 MuiAppBar-root-5 MuiAppBar-positionStatic-8 MuiAppBar-colorPrimary-10 Header-root-1"
+  >
+    <div
+      className="MuiToolbar-root-39 MuiToolbar-gutters-40 Header-container-3"
+    >
+      <div
+        className="Header-flex-2"
+      >
+        <h2
+          className="MuiTypography-root-41 MuiTypography-title-47 MuiTypography-colorInherit-60 Header-brand-4"
+        >
+          IPPS Provider Dashboard
+        </h2>
+      </div>
+    </div>
+  </header>
+  <div
+    className="MuiGrid-typeContainer-63 MuiGrid-spacing-xs-16-78"
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+  >
+    <div
+      className="MuiGrid-typeItem-64 MuiGrid-grid-xs-12-93 MuiGrid-grid-lg-6-126 MuiGrid-grid-xl-4-137"
+    >
+      <div
+        className="SearchPanel"
+      >
+        <div
+          className="MuiGrid-typeContainer-63 MuiGrid-spacing-xs-24-79"
+        >
+          <div
+            className="MuiGrid-typeItem-64 MuiGrid-grid-xs-12-93 MuiGrid-grid-sm-6-100"
+          >
+            <div
+              className="MuiFormControl-root-146 MuiFormControl-marginNormal-147 MuiFormControl-fullWidth-149"
+              onBlur={[Function]}
+              onFocus={[Function]}
+              required={false}
+            >
+              <label
+                className="MuiFormLabel-root-156 MuiInputLabel-root-150 MuiInputLabel-formControl-151 MuiInputLabel-animated-154"
+                htmlFor={undefined}
+              >
+                Max number of Total Discharges
+              </label>
+              <div
+                className="MuiInput-root-160 MuiInput-formControl-161 MuiInput-inkbar-162 MuiInput-underline-168"
+                onBlur={[Function]}
+                onFocus={[Function]}
+              >
+                <input
+                  autoComplete={undefined}
+                  autoFocus={undefined}
+                  className="MuiInput-input-164 MuiInput-inputSingleline-171"
+                  defaultValue={undefined}
+                  disabled={false}
+                  id={undefined}
+                  name={undefined}
+                  onChange={[Function]}
+                  onKeyDown={undefined}
+                  onKeyUp={undefined}
+                  placeholder={undefined}
+                  readOnly={undefined}
+                  required={undefined}
+                  rows={undefined}
+                  type="number"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-typeItem-64 MuiGrid-grid-xs-12-93 MuiGrid-grid-sm-6-100"
+          >
+            <div
+              className="MuiFormControl-root-146 MuiFormControl-marginNormal-147 MuiFormControl-fullWidth-149"
+              onBlur={[Function]}
+              onFocus={[Function]}
+              required={false}
+            >
+              <label
+                className="MuiFormLabel-root-156 MuiInputLabel-root-150 MuiInputLabel-formControl-151 MuiInputLabel-animated-154"
+                htmlFor={undefined}
+              >
+                Min number of Total Discharges
+              </label>
+              <div
+                className="MuiInput-root-160 MuiInput-formControl-161 MuiInput-inkbar-162 MuiInput-underline-168"
+                onBlur={[Function]}
+                onFocus={[Function]}
+              >
+                <input
+                  autoComplete={undefined}
+                  autoFocus={undefined}
+                  className="MuiInput-input-164 MuiInput-inputSingleline-171"
+                  defaultValue={undefined}
+                  disabled={false}
+                  id={undefined}
+                  name={undefined}
+                  onChange={[Function]}
+                  onKeyDown={undefined}
+                  onKeyUp={undefined}
+                  placeholder={undefined}
+                  readOnly={undefined}
+                  required={undefined}
+                  rows={undefined}
+                  type="number"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-typeItem-64 MuiGrid-grid-xs-12-93 MuiGrid-grid-sm-6-100"
+          >
+            <div
+              className="MuiFormControl-root-146 MuiFormControl-fullWidth-149"
+              onBlur={[Function]}
+              onFocus={[Function]}
+              required={false}
+            >
+              <label
+                className="MuiFormLabel-root-156 MuiInputLabel-root-150 MuiInputLabel-formControl-151 MuiInputLabel-animated-154"
+                htmlFor="max_average_covered_charges"
+              >
+                Max Average Covered Charges
+              </label>
+              <div
+                className="MuiInput-root-160 MuiInput-fullWidth-174 MuiInput-formControl-161 MuiInput-inkbar-162 MuiInput-underline-168"
+                label="Max Average Covered Charges"
+                onBlur={[Function]}
+                onFocus={[Function]}
+              >
+                <input
+                  autoComplete={undefined}
+                  autoFocus={undefined}
+                  className="MuiInput-input-164 MuiInput-inputSingleline-171"
+                  defaultValue={undefined}
+                  disabled={false}
+                  id="max_average_covered_charges"
+                  name={undefined}
+                  onChange={[Function]}
+                  onKeyDown={[Function]}
+                  onKeyUp={undefined}
+                  onMouseUp={[Function]}
+                  placeholder={undefined}
+                  readOnly={undefined}
+                  required={undefined}
+                  rows={undefined}
+                  type="text"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-typeItem-64 MuiGrid-grid-xs-12-93 MuiGrid-grid-sm-6-100"
+          >
+            <div
+              className="MuiFormControl-root-146 MuiFormControl-fullWidth-149"
+              onBlur={[Function]}
+              onFocus={[Function]}
+              required={false}
+            >
+              <label
+                className="MuiFormLabel-root-156 MuiInputLabel-root-150 MuiInputLabel-formControl-151 MuiInputLabel-animated-154"
+                htmlFor="min_average_covered_charges"
+              >
+                Min Average Covered Charges
+              </label>
+              <div
+                className="MuiInput-root-160 MuiInput-fullWidth-174 MuiInput-formControl-161 MuiInput-inkbar-162 MuiInput-underline-168"
+                label="Min Average Covered Charges"
+                onBlur={[Function]}
+                onFocus={[Function]}
+              >
+                <input
+                  autoComplete={undefined}
+                  autoFocus={undefined}
+                  className="MuiInput-input-164 MuiInput-inputSingleline-171"
+                  defaultValue={undefined}
+                  disabled={false}
+                  id="min_average_covered_charges"
+                  name={undefined}
+                  onChange={[Function]}
+                  onKeyDown={[Function]}
+                  onKeyUp={undefined}
+                  onMouseUp={[Function]}
+                  placeholder={undefined}
+                  readOnly={undefined}
+                  required={undefined}
+                  rows={undefined}
+                  type="text"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-typeItem-64 MuiGrid-grid-xs-12-93 MuiGrid-grid-sm-6-100"
+          >
+            <div
+              className="MuiFormControl-root-146 MuiFormControl-fullWidth-149"
+              onBlur={[Function]}
+              onFocus={[Function]}
+              required={false}
+            >
+              <label
+                className="MuiFormLabel-root-156 MuiInputLabel-root-150 MuiInputLabel-formControl-151 MuiInputLabel-animated-154"
+                htmlFor="max_average_medicare_payment"
+              >
+                Max Average Medicare Payment
+              </label>
+              <div
+                className="MuiInput-root-160 MuiInput-fullWidth-174 MuiInput-formControl-161 MuiInput-inkbar-162 MuiInput-underline-168"
+                label="Max Average Medicare Payment"
+                onBlur={[Function]}
+                onFocus={[Function]}
+              >
+                <input
+                  autoComplete={undefined}
+                  autoFocus={undefined}
+                  className="MuiInput-input-164 MuiInput-inputSingleline-171"
+                  defaultValue={undefined}
+                  disabled={false}
+                  id="max_average_medicare_payment"
+                  name={undefined}
+                  onChange={[Function]}
+                  onKeyDown={[Function]}
+                  onKeyUp={undefined}
+                  onMouseUp={[Function]}
+                  placeholder={undefined}
+                  readOnly={undefined}
+                  required={undefined}
+                  rows={undefined}
+                  type="text"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-typeItem-64 MuiGrid-grid-xs-12-93 MuiGrid-grid-sm-6-100"
+          >
+            <div
+              className="MuiFormControl-root-146 MuiFormControl-fullWidth-149"
+              onBlur={[Function]}
+              onFocus={[Function]}
+              required={false}
+            >
+              <label
+                className="MuiFormLabel-root-156 MuiInputLabel-root-150 MuiInputLabel-formControl-151 MuiInputLabel-animated-154"
+                htmlFor="min_average_medicare_payment"
+              >
+                Min Average Medicare Payment
+              </label>
+              <div
+                className="MuiInput-root-160 MuiInput-fullWidth-174 MuiInput-formControl-161 MuiInput-inkbar-162 MuiInput-underline-168"
+                label="Min Average Medicare Payment"
+                onBlur={[Function]}
+                onFocus={[Function]}
+              >
+                <input
+                  autoComplete={undefined}
+                  autoFocus={undefined}
+                  className="MuiInput-input-164 MuiInput-inputSingleline-171"
+                  defaultValue={undefined}
+                  disabled={false}
+                  id="min_average_medicare_payment"
+                  name={undefined}
+                  onChange={[Function]}
+                  onKeyDown={[Function]}
+                  onKeyUp={undefined}
+                  onMouseUp={[Function]}
+                  placeholder={undefined}
+                  readOnly={undefined}
+                  required={undefined}
+                  rows={undefined}
+                  type="text"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-typeItem-64 MuiGrid-grid-xs-12-93"
+          >
+            <div
+              className="MuiFormControl-root-146 MuiFormControl-marginNormal-147 MuiFormControl-fullWidth-149"
+              onBlur={[Function]}
+              onFocus={[Function]}
+              required={false}
+            >
+              <label
+                className="MuiFormLabel-root-156 MuiInputLabel-root-150 MuiInputLabel-formControl-151 MuiInputLabel-animated-154"
+                htmlFor={undefined}
+              >
+                The state that the provider is from
+              </label>
+              <div
+                className="MuiInput-root-160 MuiInput-formControl-161 MuiInput-inkbar-162 MuiInput-underline-168"
+                onBlur={[Function]}
+                onFocus={[Function]}
+              >
+                <input
+                  autoComplete={undefined}
+                  autoFocus={undefined}
+                  className="MuiInput-input-164 MuiInput-inputSingleline-171"
+                  defaultValue={undefined}
+                  disabled={false}
+                  id={undefined}
+                  name={undefined}
+                  onChange={[Function]}
+                  onKeyDown={undefined}
+                  onKeyUp={undefined}
+                  placeholder={undefined}
+                  readOnly={undefined}
+                  required={undefined}
+                  rows={undefined}
+                  type="text"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+          <hr />
+          <div
+            className="MuiGrid-typeItem-64 MuiGrid-grid-xs-12-93"
+          >
+            <div
+              className="MuiFormGroup-root-175 MuiFormGroup-row-176"
+            >
+              <label
+                className="MuiFormControlLabel-root-177"
+                style={
+                  Object {
+                    "minWidth": "45%",
+                  }
+                }
+              >
+                <span
+                  className="MuiButtonBase-root-197 MuiIconButton-root-188 MuiSwitchBase-root-183 MuiSwitchBase-default-185 MuiCheckbox-default-180"
+                  disabled={false}
+                  onBlur={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  onKeyUp={[Function]}
+                  onMouseDown={[Function]}
+                  onMouseLeave={[Function]}
+                  onMouseUp={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  role={undefined}
+                  tabIndex={null}
+                >
+                  <span
+                    className="MuiIconButton-label-194"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      className="MuiSvgIcon-root-199"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                      />
+                    </svg>
+                    <input
+                      checked={false}
+                      className="MuiSwitchBase-input-184"
+                      disabled={false}
+                      name={undefined}
+                      onChange={[Function]}
+                      tabIndex={undefined}
+                      type="checkbox"
+                      value="providerName"
+                    />
+                  </span>
+                  <span
+                    className="MuiTouchRipple-root-200"
+                  />
+                </span>
+                <p
+                  className="MuiTypography-root-41 MuiTypography-body1-50 MuiFormControlLabel-label-179"
+                >
+                  Name
+                </p>
+              </label>
+              <label
+                className="MuiFormControlLabel-root-177"
+                style={
+                  Object {
+                    "minWidth": "45%",
+                  }
+                }
+              >
+                <span
+                  className="MuiButtonBase-root-197 MuiIconButton-root-188 MuiSwitchBase-root-183 MuiSwitchBase-default-185 MuiCheckbox-default-180"
+                  disabled={false}
+                  onBlur={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  onKeyUp={[Function]}
+                  onMouseDown={[Function]}
+                  onMouseLeave={[Function]}
+                  onMouseUp={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  role={undefined}
+                  tabIndex={null}
+                >
+                  <span
+                    className="MuiIconButton-label-194"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      className="MuiSvgIcon-root-199"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                      />
+                    </svg>
+                    <input
+                      checked={false}
+                      className="MuiSwitchBase-input-184"
+                      disabled={false}
+                      name={undefined}
+                      onChange={[Function]}
+                      tabIndex={undefined}
+                      type="checkbox"
+                      value="providerStreetAddress"
+                    />
+                  </span>
+                  <span
+                    className="MuiTouchRipple-root-200"
+                  />
+                </span>
+                <p
+                  className="MuiTypography-root-41 MuiTypography-body1-50 MuiFormControlLabel-label-179"
+                >
+                  Street Address
+                </p>
+              </label>
+              <label
+                className="MuiFormControlLabel-root-177"
+                style={
+                  Object {
+                    "minWidth": "45%",
+                  }
+                }
+              >
+                <span
+                  className="MuiButtonBase-root-197 MuiIconButton-root-188 MuiSwitchBase-root-183 MuiSwitchBase-default-185 MuiCheckbox-default-180"
+                  disabled={false}
+                  onBlur={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  onKeyUp={[Function]}
+                  onMouseDown={[Function]}
+                  onMouseLeave={[Function]}
+                  onMouseUp={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  role={undefined}
+                  tabIndex={null}
+                >
+                  <span
+                    className="MuiIconButton-label-194"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      className="MuiSvgIcon-root-199"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                      />
+                    </svg>
+                    <input
+                      checked={false}
+                      className="MuiSwitchBase-input-184"
+                      disabled={false}
+                      name={undefined}
+                      onChange={[Function]}
+                      tabIndex={undefined}
+                      type="checkbox"
+                      value="providerCity"
+                    />
+                  </span>
+                  <span
+                    className="MuiTouchRipple-root-200"
+                  />
+                </span>
+                <p
+                  className="MuiTypography-root-41 MuiTypography-body1-50 MuiFormControlLabel-label-179"
+                >
+                  City
+                </p>
+              </label>
+              <label
+                className="MuiFormControlLabel-root-177"
+                style={
+                  Object {
+                    "minWidth": "45%",
+                  }
+                }
+              >
+                <span
+                  className="MuiButtonBase-root-197 MuiIconButton-root-188 MuiSwitchBase-root-183 MuiSwitchBase-default-185 MuiCheckbox-default-180"
+                  disabled={false}
+                  onBlur={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  onKeyUp={[Function]}
+                  onMouseDown={[Function]}
+                  onMouseLeave={[Function]}
+                  onMouseUp={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  role={undefined}
+                  tabIndex={null}
+                >
+                  <span
+                    className="MuiIconButton-label-194"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      className="MuiSvgIcon-root-199"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                      />
+                    </svg>
+                    <input
+                      checked={false}
+                      className="MuiSwitchBase-input-184"
+                      disabled={false}
+                      name={undefined}
+                      onChange={[Function]}
+                      tabIndex={undefined}
+                      type="checkbox"
+                      value="providerState"
+                    />
+                  </span>
+                  <span
+                    className="MuiTouchRipple-root-200"
+                  />
+                </span>
+                <p
+                  className="MuiTypography-root-41 MuiTypography-body1-50 MuiFormControlLabel-label-179"
+                >
+                  State
+                </p>
+              </label>
+              <label
+                className="MuiFormControlLabel-root-177"
+                style={
+                  Object {
+                    "minWidth": "45%",
+                  }
+                }
+              >
+                <span
+                  className="MuiButtonBase-root-197 MuiIconButton-root-188 MuiSwitchBase-root-183 MuiSwitchBase-default-185 MuiCheckbox-default-180"
+                  disabled={false}
+                  onBlur={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  onKeyUp={[Function]}
+                  onMouseDown={[Function]}
+                  onMouseLeave={[Function]}
+                  onMouseUp={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  role={undefined}
+                  tabIndex={null}
+                >
+                  <span
+                    className="MuiIconButton-label-194"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      className="MuiSvgIcon-root-199"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                      />
+                    </svg>
+                    <input
+                      checked={false}
+                      className="MuiSwitchBase-input-184"
+                      disabled={false}
+                      name={undefined}
+                      onChange={[Function]}
+                      tabIndex={undefined}
+                      type="checkbox"
+                      value="providerZipCode"
+                    />
+                  </span>
+                  <span
+                    className="MuiTouchRipple-root-200"
+                  />
+                </span>
+                <p
+                  className="MuiTypography-root-41 MuiTypography-body1-50 MuiFormControlLabel-label-179"
+                >
+                  Zip Code
+                </p>
+              </label>
+              <label
+                className="MuiFormControlLabel-root-177"
+                style={
+                  Object {
+                    "minWidth": "45%",
+                  }
+                }
+              >
+                <span
+                  className="MuiButtonBase-root-197 MuiIconButton-root-188 MuiSwitchBase-root-183 MuiSwitchBase-default-185 MuiCheckbox-default-180"
+                  disabled={false}
+                  onBlur={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  onKeyUp={[Function]}
+                  onMouseDown={[Function]}
+                  onMouseLeave={[Function]}
+                  onMouseUp={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  role={undefined}
+                  tabIndex={null}
+                >
+                  <span
+                    className="MuiIconButton-label-194"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      className="MuiSvgIcon-root-199"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                      />
+                    </svg>
+                    <input
+                      checked={false}
+                      className="MuiSwitchBase-input-184"
+                      disabled={false}
+                      name={undefined}
+                      onChange={[Function]}
+                      tabIndex={undefined}
+                      type="checkbox"
+                      value="hospitalReferralRegionDescription"
+                    />
+                  </span>
+                  <span
+                    className="MuiTouchRipple-root-200"
+                  />
+                </span>
+                <p
+                  className="MuiTypography-root-41 MuiTypography-body1-50 MuiFormControlLabel-label-179"
+                >
+                  Hospital Referral Region
+                </p>
+              </label>
+              <label
+                className="MuiFormControlLabel-root-177"
+                style={
+                  Object {
+                    "minWidth": "45%",
+                  }
+                }
+              >
+                <span
+                  className="MuiButtonBase-root-197 MuiIconButton-root-188 MuiSwitchBase-root-183 MuiSwitchBase-default-185 MuiCheckbox-default-180"
+                  disabled={false}
+                  onBlur={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  onKeyUp={[Function]}
+                  onMouseDown={[Function]}
+                  onMouseLeave={[Function]}
+                  onMouseUp={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  role={undefined}
+                  tabIndex={null}
+                >
+                  <span
+                    className="MuiIconButton-label-194"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      className="MuiSvgIcon-root-199"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                      />
+                    </svg>
+                    <input
+                      checked={false}
+                      className="MuiSwitchBase-input-184"
+                      disabled={false}
+                      name={undefined}
+                      onChange={[Function]}
+                      tabIndex={undefined}
+                      type="checkbox"
+                      value="totalDischarges"
+                    />
+                  </span>
+                  <span
+                    className="MuiTouchRipple-root-200"
+                  />
+                </span>
+                <p
+                  className="MuiTypography-root-41 MuiTypography-body1-50 MuiFormControlLabel-label-179"
+                >
+                  Total Discharges
+                </p>
+              </label>
+              <label
+                className="MuiFormControlLabel-root-177"
+                style={
+                  Object {
+                    "minWidth": "45%",
+                  }
+                }
+              >
+                <span
+                  className="MuiButtonBase-root-197 MuiIconButton-root-188 MuiSwitchBase-root-183 MuiSwitchBase-default-185 MuiCheckbox-default-180"
+                  disabled={false}
+                  onBlur={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  onKeyUp={[Function]}
+                  onMouseDown={[Function]}
+                  onMouseLeave={[Function]}
+                  onMouseUp={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  role={undefined}
+                  tabIndex={null}
+                >
+                  <span
+                    className="MuiIconButton-label-194"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      className="MuiSvgIcon-root-199"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                      />
+                    </svg>
+                    <input
+                      checked={false}
+                      className="MuiSwitchBase-input-184"
+                      disabled={false}
+                      name={undefined}
+                      onChange={[Function]}
+                      tabIndex={undefined}
+                      type="checkbox"
+                      value="averageCoveredCharges"
+                    />
+                  </span>
+                  <span
+                    className="MuiTouchRipple-root-200"
+                  />
+                </span>
+                <p
+                  className="MuiTypography-root-41 MuiTypography-body1-50 MuiFormControlLabel-label-179"
+                >
+                  Average Covered Charges
+                </p>
+              </label>
+              <label
+                className="MuiFormControlLabel-root-177"
+                style={
+                  Object {
+                    "minWidth": "45%",
+                  }
+                }
+              >
+                <span
+                  className="MuiButtonBase-root-197 MuiIconButton-root-188 MuiSwitchBase-root-183 MuiSwitchBase-default-185 MuiCheckbox-default-180"
+                  disabled={false}
+                  onBlur={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  onKeyUp={[Function]}
+                  onMouseDown={[Function]}
+                  onMouseLeave={[Function]}
+                  onMouseUp={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  role={undefined}
+                  tabIndex={null}
+                >
+                  <span
+                    className="MuiIconButton-label-194"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      className="MuiSvgIcon-root-199"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                      />
+                    </svg>
+                    <input
+                      checked={false}
+                      className="MuiSwitchBase-input-184"
+                      disabled={false}
+                      name={undefined}
+                      onChange={[Function]}
+                      tabIndex={undefined}
+                      type="checkbox"
+                      value="averageTotalPayments"
+                    />
+                  </span>
+                  <span
+                    className="MuiTouchRipple-root-200"
+                  />
+                </span>
+                <p
+                  className="MuiTypography-root-41 MuiTypography-body1-50 MuiFormControlLabel-label-179"
+                >
+                  Average Total Payments
+                </p>
+              </label>
+              <label
+                className="MuiFormControlLabel-root-177"
+                style={
+                  Object {
+                    "minWidth": "45%",
+                  }
+                }
+              >
+                <span
+                  className="MuiButtonBase-root-197 MuiIconButton-root-188 MuiSwitchBase-root-183 MuiSwitchBase-default-185 MuiCheckbox-default-180"
+                  disabled={false}
+                  onBlur={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  onKeyUp={[Function]}
+                  onMouseDown={[Function]}
+                  onMouseLeave={[Function]}
+                  onMouseUp={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  role={undefined}
+                  tabIndex={null}
+                >
+                  <span
+                    className="MuiIconButton-label-194"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      className="MuiSvgIcon-root-199"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                      />
+                    </svg>
+                    <input
+                      checked={false}
+                      className="MuiSwitchBase-input-184"
+                      disabled={false}
+                      name={undefined}
+                      onChange={[Function]}
+                      tabIndex={undefined}
+                      type="checkbox"
+                      value="averageMedicarePayments"
+                    />
+                  </span>
+                  <span
+                    className="MuiTouchRipple-root-200"
+                  />
+                </span>
+                <p
+                  className="MuiTypography-root-41 MuiTypography-body1-50 MuiFormControlLabel-label-179"
+                >
+                  Average Medicare Payments
+                </p>
+              </label>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-typeItem-64 MuiGrid-grid-xs-12-93"
+          >
+            <button
+              className="MuiButtonBase-root-197 MuiButton-root-207 MuiButton-raised-214 MuiButton-raisedPrimary-216 fullWidth"
+              disabled={false}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchStart={[Function]}
+              role="button"
+              tabIndex={0}
+              type="button"
+            >
+              <span
+                className="MuiButton-label-209"
+              >
+                Search
+              </span>
+              <span
+                className="MuiTouchRipple-root-200"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="MuiGrid-typeItem-64 MuiGrid-grid-xs-12-93 MuiGrid-grid-lg-6-126 MuiGrid-grid-xl-8-141 results"
+    >
+      <div
+        className="message"
+      >
+        <div
+          className="MuiCircularProgress-root-221 MuiCircularProgress-primaryColor-222"
+          role="progressbar"
+          style={
+            Object {
+              "height": 50,
+              "width": 50,
+            }
+          }
+        >
+          <svg
+            className="MuiCircularProgress-svg-224 MuiCircularProgress-indeterminateSvg-225"
+            viewBox="0 0 50 50"
+          >
+            <circle
+              className="MuiCircularProgress-circle-226 MuiCircularProgress-indeterminateCircle-227"
+              cx={25}
+              cy={25}
+              fill="none"
+              r={23.2}
+              strokeMiterlimit="20"
+              strokeWidth={3.6}
+              style={Object {}}
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`App renders correctly with data 1`] = `
+<div
+  className="App"
+>
+  <header
+    className="MuiPaper-root-12 MuiPaper-shadow4-18 MuiAppBar-root-5 MuiAppBar-positionStatic-8 MuiAppBar-colorPrimary-10 Header-root-1"
+  >
+    <div
+      className="MuiToolbar-root-39 MuiToolbar-gutters-40 Header-container-3"
+    >
+      <div
+        className="Header-flex-2"
+      >
+        <h2
+          className="MuiTypography-root-41 MuiTypography-title-47 MuiTypography-colorInherit-60 Header-brand-4"
+        >
+          IPPS Provider Dashboard
+        </h2>
+      </div>
+    </div>
+  </header>
+  <div
+    className="MuiGrid-typeContainer-63 MuiGrid-spacing-xs-16-78"
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+  >
+    <div
+      className="MuiGrid-typeItem-64 MuiGrid-grid-xs-12-93 MuiGrid-grid-lg-6-126 MuiGrid-grid-xl-4-137"
+    >
+      <div
+        className="SearchPanel"
+      >
+        <div
+          className="MuiGrid-typeContainer-63 MuiGrid-spacing-xs-24-79"
+        >
+          <div
+            className="MuiGrid-typeItem-64 MuiGrid-grid-xs-12-93 MuiGrid-grid-sm-6-100"
+          >
+            <div
+              className="MuiFormControl-root-146 MuiFormControl-marginNormal-147 MuiFormControl-fullWidth-149"
+              onBlur={[Function]}
+              onFocus={[Function]}
+              required={false}
+            >
+              <label
+                className="MuiFormLabel-root-156 MuiInputLabel-root-150 MuiInputLabel-formControl-151 MuiInputLabel-animated-154"
+                htmlFor={undefined}
+              >
+                Max number of Total Discharges
+              </label>
+              <div
+                className="MuiInput-root-160 MuiInput-formControl-161 MuiInput-inkbar-162 MuiInput-underline-168"
+                onBlur={[Function]}
+                onFocus={[Function]}
+              >
+                <input
+                  autoComplete={undefined}
+                  autoFocus={undefined}
+                  className="MuiInput-input-164 MuiInput-inputSingleline-171"
+                  defaultValue={undefined}
+                  disabled={false}
+                  id={undefined}
+                  name={undefined}
+                  onChange={[Function]}
+                  onKeyDown={undefined}
+                  onKeyUp={undefined}
+                  placeholder={undefined}
+                  readOnly={undefined}
+                  required={undefined}
+                  rows={undefined}
+                  type="number"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-typeItem-64 MuiGrid-grid-xs-12-93 MuiGrid-grid-sm-6-100"
+          >
+            <div
+              className="MuiFormControl-root-146 MuiFormControl-marginNormal-147 MuiFormControl-fullWidth-149"
+              onBlur={[Function]}
+              onFocus={[Function]}
+              required={false}
+            >
+              <label
+                className="MuiFormLabel-root-156 MuiInputLabel-root-150 MuiInputLabel-formControl-151 MuiInputLabel-animated-154"
+                htmlFor={undefined}
+              >
+                Min number of Total Discharges
+              </label>
+              <div
+                className="MuiInput-root-160 MuiInput-formControl-161 MuiInput-inkbar-162 MuiInput-underline-168"
+                onBlur={[Function]}
+                onFocus={[Function]}
+              >
+                <input
+                  autoComplete={undefined}
+                  autoFocus={undefined}
+                  className="MuiInput-input-164 MuiInput-inputSingleline-171"
+                  defaultValue={undefined}
+                  disabled={false}
+                  id={undefined}
+                  name={undefined}
+                  onChange={[Function]}
+                  onKeyDown={undefined}
+                  onKeyUp={undefined}
+                  placeholder={undefined}
+                  readOnly={undefined}
+                  required={undefined}
+                  rows={undefined}
+                  type="number"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-typeItem-64 MuiGrid-grid-xs-12-93 MuiGrid-grid-sm-6-100"
+          >
+            <div
+              className="MuiFormControl-root-146 MuiFormControl-fullWidth-149"
+              onBlur={[Function]}
+              onFocus={[Function]}
+              required={false}
+            >
+              <label
+                className="MuiFormLabel-root-156 MuiInputLabel-root-150 MuiInputLabel-formControl-151 MuiInputLabel-animated-154"
+                htmlFor="max_average_covered_charges"
+              >
+                Max Average Covered Charges
+              </label>
+              <div
+                className="MuiInput-root-160 MuiInput-fullWidth-174 MuiInput-formControl-161 MuiInput-inkbar-162 MuiInput-underline-168"
+                label="Max Average Covered Charges"
+                onBlur={[Function]}
+                onFocus={[Function]}
+              >
+                <input
+                  autoComplete={undefined}
+                  autoFocus={undefined}
+                  className="MuiInput-input-164 MuiInput-inputSingleline-171"
+                  defaultValue={undefined}
+                  disabled={false}
+                  id="max_average_covered_charges"
+                  name={undefined}
+                  onChange={[Function]}
+                  onKeyDown={[Function]}
+                  onKeyUp={undefined}
+                  onMouseUp={[Function]}
+                  placeholder={undefined}
+                  readOnly={undefined}
+                  required={undefined}
+                  rows={undefined}
+                  type="text"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-typeItem-64 MuiGrid-grid-xs-12-93 MuiGrid-grid-sm-6-100"
+          >
+            <div
+              className="MuiFormControl-root-146 MuiFormControl-fullWidth-149"
+              onBlur={[Function]}
+              onFocus={[Function]}
+              required={false}
+            >
+              <label
+                className="MuiFormLabel-root-156 MuiInputLabel-root-150 MuiInputLabel-formControl-151 MuiInputLabel-animated-154"
+                htmlFor="min_average_covered_charges"
+              >
+                Min Average Covered Charges
+              </label>
+              <div
+                className="MuiInput-root-160 MuiInput-fullWidth-174 MuiInput-formControl-161 MuiInput-inkbar-162 MuiInput-underline-168"
+                label="Min Average Covered Charges"
+                onBlur={[Function]}
+                onFocus={[Function]}
+              >
+                <input
+                  autoComplete={undefined}
+                  autoFocus={undefined}
+                  className="MuiInput-input-164 MuiInput-inputSingleline-171"
+                  defaultValue={undefined}
+                  disabled={false}
+                  id="min_average_covered_charges"
+                  name={undefined}
+                  onChange={[Function]}
+                  onKeyDown={[Function]}
+                  onKeyUp={undefined}
+                  onMouseUp={[Function]}
+                  placeholder={undefined}
+                  readOnly={undefined}
+                  required={undefined}
+                  rows={undefined}
+                  type="text"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-typeItem-64 MuiGrid-grid-xs-12-93 MuiGrid-grid-sm-6-100"
+          >
+            <div
+              className="MuiFormControl-root-146 MuiFormControl-fullWidth-149"
+              onBlur={[Function]}
+              onFocus={[Function]}
+              required={false}
+            >
+              <label
+                className="MuiFormLabel-root-156 MuiInputLabel-root-150 MuiInputLabel-formControl-151 MuiInputLabel-animated-154"
+                htmlFor="max_average_medicare_payment"
+              >
+                Max Average Medicare Payment
+              </label>
+              <div
+                className="MuiInput-root-160 MuiInput-fullWidth-174 MuiInput-formControl-161 MuiInput-inkbar-162 MuiInput-underline-168"
+                label="Max Average Medicare Payment"
+                onBlur={[Function]}
+                onFocus={[Function]}
+              >
+                <input
+                  autoComplete={undefined}
+                  autoFocus={undefined}
+                  className="MuiInput-input-164 MuiInput-inputSingleline-171"
+                  defaultValue={undefined}
+                  disabled={false}
+                  id="max_average_medicare_payment"
+                  name={undefined}
+                  onChange={[Function]}
+                  onKeyDown={[Function]}
+                  onKeyUp={undefined}
+                  onMouseUp={[Function]}
+                  placeholder={undefined}
+                  readOnly={undefined}
+                  required={undefined}
+                  rows={undefined}
+                  type="text"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-typeItem-64 MuiGrid-grid-xs-12-93 MuiGrid-grid-sm-6-100"
+          >
+            <div
+              className="MuiFormControl-root-146 MuiFormControl-fullWidth-149"
+              onBlur={[Function]}
+              onFocus={[Function]}
+              required={false}
+            >
+              <label
+                className="MuiFormLabel-root-156 MuiInputLabel-root-150 MuiInputLabel-formControl-151 MuiInputLabel-animated-154"
+                htmlFor="min_average_medicare_payment"
+              >
+                Min Average Medicare Payment
+              </label>
+              <div
+                className="MuiInput-root-160 MuiInput-fullWidth-174 MuiInput-formControl-161 MuiInput-inkbar-162 MuiInput-underline-168"
+                label="Min Average Medicare Payment"
+                onBlur={[Function]}
+                onFocus={[Function]}
+              >
+                <input
+                  autoComplete={undefined}
+                  autoFocus={undefined}
+                  className="MuiInput-input-164 MuiInput-inputSingleline-171"
+                  defaultValue={undefined}
+                  disabled={false}
+                  id="min_average_medicare_payment"
+                  name={undefined}
+                  onChange={[Function]}
+                  onKeyDown={[Function]}
+                  onKeyUp={undefined}
+                  onMouseUp={[Function]}
+                  placeholder={undefined}
+                  readOnly={undefined}
+                  required={undefined}
+                  rows={undefined}
+                  type="text"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-typeItem-64 MuiGrid-grid-xs-12-93"
+          >
+            <div
+              className="MuiFormControl-root-146 MuiFormControl-marginNormal-147 MuiFormControl-fullWidth-149"
+              onBlur={[Function]}
+              onFocus={[Function]}
+              required={false}
+            >
+              <label
+                className="MuiFormLabel-root-156 MuiInputLabel-root-150 MuiInputLabel-formControl-151 MuiInputLabel-animated-154"
+                htmlFor={undefined}
+              >
+                The state that the provider is from
+              </label>
+              <div
+                className="MuiInput-root-160 MuiInput-formControl-161 MuiInput-inkbar-162 MuiInput-underline-168"
+                onBlur={[Function]}
+                onFocus={[Function]}
+              >
+                <input
+                  autoComplete={undefined}
+                  autoFocus={undefined}
+                  className="MuiInput-input-164 MuiInput-inputSingleline-171"
+                  defaultValue={undefined}
+                  disabled={false}
+                  id={undefined}
+                  name={undefined}
+                  onChange={[Function]}
+                  onKeyDown={undefined}
+                  onKeyUp={undefined}
+                  placeholder={undefined}
+                  readOnly={undefined}
+                  required={undefined}
+                  rows={undefined}
+                  type="text"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+          <hr />
+          <div
+            className="MuiGrid-typeItem-64 MuiGrid-grid-xs-12-93"
+          >
+            <div
+              className="MuiFormGroup-root-175 MuiFormGroup-row-176"
+            >
+              <label
+                className="MuiFormControlLabel-root-177"
+                style={
+                  Object {
+                    "minWidth": "45%",
+                  }
+                }
+              >
+                <span
+                  className="MuiButtonBase-root-197 MuiIconButton-root-188 MuiSwitchBase-root-183 MuiSwitchBase-default-185 MuiCheckbox-default-180"
+                  disabled={false}
+                  onBlur={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  onKeyUp={[Function]}
+                  onMouseDown={[Function]}
+                  onMouseLeave={[Function]}
+                  onMouseUp={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  role={undefined}
+                  tabIndex={null}
+                >
+                  <span
+                    className="MuiIconButton-label-194"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      className="MuiSvgIcon-root-199"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                      />
+                    </svg>
+                    <input
+                      checked={false}
+                      className="MuiSwitchBase-input-184"
+                      disabled={false}
+                      name={undefined}
+                      onChange={[Function]}
+                      tabIndex={undefined}
+                      type="checkbox"
+                      value="providerName"
+                    />
+                  </span>
+                  <span
+                    className="MuiTouchRipple-root-200"
+                  />
+                </span>
+                <p
+                  className="MuiTypography-root-41 MuiTypography-body1-50 MuiFormControlLabel-label-179"
+                >
+                  Name
+                </p>
+              </label>
+              <label
+                className="MuiFormControlLabel-root-177"
+                style={
+                  Object {
+                    "minWidth": "45%",
+                  }
+                }
+              >
+                <span
+                  className="MuiButtonBase-root-197 MuiIconButton-root-188 MuiSwitchBase-root-183 MuiSwitchBase-default-185 MuiCheckbox-default-180"
+                  disabled={false}
+                  onBlur={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  onKeyUp={[Function]}
+                  onMouseDown={[Function]}
+                  onMouseLeave={[Function]}
+                  onMouseUp={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  role={undefined}
+                  tabIndex={null}
+                >
+                  <span
+                    className="MuiIconButton-label-194"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      className="MuiSvgIcon-root-199"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                      />
+                    </svg>
+                    <input
+                      checked={false}
+                      className="MuiSwitchBase-input-184"
+                      disabled={false}
+                      name={undefined}
+                      onChange={[Function]}
+                      tabIndex={undefined}
+                      type="checkbox"
+                      value="providerStreetAddress"
+                    />
+                  </span>
+                  <span
+                    className="MuiTouchRipple-root-200"
+                  />
+                </span>
+                <p
+                  className="MuiTypography-root-41 MuiTypography-body1-50 MuiFormControlLabel-label-179"
+                >
+                  Street Address
+                </p>
+              </label>
+              <label
+                className="MuiFormControlLabel-root-177"
+                style={
+                  Object {
+                    "minWidth": "45%",
+                  }
+                }
+              >
+                <span
+                  className="MuiButtonBase-root-197 MuiIconButton-root-188 MuiSwitchBase-root-183 MuiSwitchBase-default-185 MuiCheckbox-default-180"
+                  disabled={false}
+                  onBlur={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  onKeyUp={[Function]}
+                  onMouseDown={[Function]}
+                  onMouseLeave={[Function]}
+                  onMouseUp={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  role={undefined}
+                  tabIndex={null}
+                >
+                  <span
+                    className="MuiIconButton-label-194"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      className="MuiSvgIcon-root-199"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                      />
+                    </svg>
+                    <input
+                      checked={false}
+                      className="MuiSwitchBase-input-184"
+                      disabled={false}
+                      name={undefined}
+                      onChange={[Function]}
+                      tabIndex={undefined}
+                      type="checkbox"
+                      value="providerCity"
+                    />
+                  </span>
+                  <span
+                    className="MuiTouchRipple-root-200"
+                  />
+                </span>
+                <p
+                  className="MuiTypography-root-41 MuiTypography-body1-50 MuiFormControlLabel-label-179"
+                >
+                  City
+                </p>
+              </label>
+              <label
+                className="MuiFormControlLabel-root-177"
+                style={
+                  Object {
+                    "minWidth": "45%",
+                  }
+                }
+              >
+                <span
+                  className="MuiButtonBase-root-197 MuiIconButton-root-188 MuiSwitchBase-root-183 MuiSwitchBase-default-185 MuiCheckbox-default-180"
+                  disabled={false}
+                  onBlur={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  onKeyUp={[Function]}
+                  onMouseDown={[Function]}
+                  onMouseLeave={[Function]}
+                  onMouseUp={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  role={undefined}
+                  tabIndex={null}
+                >
+                  <span
+                    className="MuiIconButton-label-194"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      className="MuiSvgIcon-root-199"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                      />
+                    </svg>
+                    <input
+                      checked={false}
+                      className="MuiSwitchBase-input-184"
+                      disabled={false}
+                      name={undefined}
+                      onChange={[Function]}
+                      tabIndex={undefined}
+                      type="checkbox"
+                      value="providerState"
+                    />
+                  </span>
+                  <span
+                    className="MuiTouchRipple-root-200"
+                  />
+                </span>
+                <p
+                  className="MuiTypography-root-41 MuiTypography-body1-50 MuiFormControlLabel-label-179"
+                >
+                  State
+                </p>
+              </label>
+              <label
+                className="MuiFormControlLabel-root-177"
+                style={
+                  Object {
+                    "minWidth": "45%",
+                  }
+                }
+              >
+                <span
+                  className="MuiButtonBase-root-197 MuiIconButton-root-188 MuiSwitchBase-root-183 MuiSwitchBase-default-185 MuiCheckbox-default-180"
+                  disabled={false}
+                  onBlur={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  onKeyUp={[Function]}
+                  onMouseDown={[Function]}
+                  onMouseLeave={[Function]}
+                  onMouseUp={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  role={undefined}
+                  tabIndex={null}
+                >
+                  <span
+                    className="MuiIconButton-label-194"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      className="MuiSvgIcon-root-199"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                      />
+                    </svg>
+                    <input
+                      checked={false}
+                      className="MuiSwitchBase-input-184"
+                      disabled={false}
+                      name={undefined}
+                      onChange={[Function]}
+                      tabIndex={undefined}
+                      type="checkbox"
+                      value="providerZipCode"
+                    />
+                  </span>
+                  <span
+                    className="MuiTouchRipple-root-200"
+                  />
+                </span>
+                <p
+                  className="MuiTypography-root-41 MuiTypography-body1-50 MuiFormControlLabel-label-179"
+                >
+                  Zip Code
+                </p>
+              </label>
+              <label
+                className="MuiFormControlLabel-root-177"
+                style={
+                  Object {
+                    "minWidth": "45%",
+                  }
+                }
+              >
+                <span
+                  className="MuiButtonBase-root-197 MuiIconButton-root-188 MuiSwitchBase-root-183 MuiSwitchBase-default-185 MuiCheckbox-default-180"
+                  disabled={false}
+                  onBlur={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  onKeyUp={[Function]}
+                  onMouseDown={[Function]}
+                  onMouseLeave={[Function]}
+                  onMouseUp={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  role={undefined}
+                  tabIndex={null}
+                >
+                  <span
+                    className="MuiIconButton-label-194"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      className="MuiSvgIcon-root-199"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                      />
+                    </svg>
+                    <input
+                      checked={false}
+                      className="MuiSwitchBase-input-184"
+                      disabled={false}
+                      name={undefined}
+                      onChange={[Function]}
+                      tabIndex={undefined}
+                      type="checkbox"
+                      value="hospitalReferralRegionDescription"
+                    />
+                  </span>
+                  <span
+                    className="MuiTouchRipple-root-200"
+                  />
+                </span>
+                <p
+                  className="MuiTypography-root-41 MuiTypography-body1-50 MuiFormControlLabel-label-179"
+                >
+                  Hospital Referral Region
+                </p>
+              </label>
+              <label
+                className="MuiFormControlLabel-root-177"
+                style={
+                  Object {
+                    "minWidth": "45%",
+                  }
+                }
+              >
+                <span
+                  className="MuiButtonBase-root-197 MuiIconButton-root-188 MuiSwitchBase-root-183 MuiSwitchBase-default-185 MuiCheckbox-default-180"
+                  disabled={false}
+                  onBlur={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  onKeyUp={[Function]}
+                  onMouseDown={[Function]}
+                  onMouseLeave={[Function]}
+                  onMouseUp={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  role={undefined}
+                  tabIndex={null}
+                >
+                  <span
+                    className="MuiIconButton-label-194"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      className="MuiSvgIcon-root-199"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                      />
+                    </svg>
+                    <input
+                      checked={false}
+                      className="MuiSwitchBase-input-184"
+                      disabled={false}
+                      name={undefined}
+                      onChange={[Function]}
+                      tabIndex={undefined}
+                      type="checkbox"
+                      value="totalDischarges"
+                    />
+                  </span>
+                  <span
+                    className="MuiTouchRipple-root-200"
+                  />
+                </span>
+                <p
+                  className="MuiTypography-root-41 MuiTypography-body1-50 MuiFormControlLabel-label-179"
+                >
+                  Total Discharges
+                </p>
+              </label>
+              <label
+                className="MuiFormControlLabel-root-177"
+                style={
+                  Object {
+                    "minWidth": "45%",
+                  }
+                }
+              >
+                <span
+                  className="MuiButtonBase-root-197 MuiIconButton-root-188 MuiSwitchBase-root-183 MuiSwitchBase-default-185 MuiCheckbox-default-180"
+                  disabled={false}
+                  onBlur={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  onKeyUp={[Function]}
+                  onMouseDown={[Function]}
+                  onMouseLeave={[Function]}
+                  onMouseUp={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  role={undefined}
+                  tabIndex={null}
+                >
+                  <span
+                    className="MuiIconButton-label-194"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      className="MuiSvgIcon-root-199"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                      />
+                    </svg>
+                    <input
+                      checked={false}
+                      className="MuiSwitchBase-input-184"
+                      disabled={false}
+                      name={undefined}
+                      onChange={[Function]}
+                      tabIndex={undefined}
+                      type="checkbox"
+                      value="averageCoveredCharges"
+                    />
+                  </span>
+                  <span
+                    className="MuiTouchRipple-root-200"
+                  />
+                </span>
+                <p
+                  className="MuiTypography-root-41 MuiTypography-body1-50 MuiFormControlLabel-label-179"
+                >
+                  Average Covered Charges
+                </p>
+              </label>
+              <label
+                className="MuiFormControlLabel-root-177"
+                style={
+                  Object {
+                    "minWidth": "45%",
+                  }
+                }
+              >
+                <span
+                  className="MuiButtonBase-root-197 MuiIconButton-root-188 MuiSwitchBase-root-183 MuiSwitchBase-default-185 MuiCheckbox-default-180"
+                  disabled={false}
+                  onBlur={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  onKeyUp={[Function]}
+                  onMouseDown={[Function]}
+                  onMouseLeave={[Function]}
+                  onMouseUp={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  role={undefined}
+                  tabIndex={null}
+                >
+                  <span
+                    className="MuiIconButton-label-194"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      className="MuiSvgIcon-root-199"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                      />
+                    </svg>
+                    <input
+                      checked={false}
+                      className="MuiSwitchBase-input-184"
+                      disabled={false}
+                      name={undefined}
+                      onChange={[Function]}
+                      tabIndex={undefined}
+                      type="checkbox"
+                      value="averageTotalPayments"
+                    />
+                  </span>
+                  <span
+                    className="MuiTouchRipple-root-200"
+                  />
+                </span>
+                <p
+                  className="MuiTypography-root-41 MuiTypography-body1-50 MuiFormControlLabel-label-179"
+                >
+                  Average Total Payments
+                </p>
+              </label>
+              <label
+                className="MuiFormControlLabel-root-177"
+                style={
+                  Object {
+                    "minWidth": "45%",
+                  }
+                }
+              >
+                <span
+                  className="MuiButtonBase-root-197 MuiIconButton-root-188 MuiSwitchBase-root-183 MuiSwitchBase-default-185 MuiCheckbox-default-180"
+                  disabled={false}
+                  onBlur={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  onKeyUp={[Function]}
+                  onMouseDown={[Function]}
+                  onMouseLeave={[Function]}
+                  onMouseUp={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  role={undefined}
+                  tabIndex={null}
+                >
+                  <span
+                    className="MuiIconButton-label-194"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      className="MuiSvgIcon-root-199"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                      />
+                    </svg>
+                    <input
+                      checked={false}
+                      className="MuiSwitchBase-input-184"
+                      disabled={false}
+                      name={undefined}
+                      onChange={[Function]}
+                      tabIndex={undefined}
+                      type="checkbox"
+                      value="averageMedicarePayments"
+                    />
+                  </span>
+                  <span
+                    className="MuiTouchRipple-root-200"
+                  />
+                </span>
+                <p
+                  className="MuiTypography-root-41 MuiTypography-body1-50 MuiFormControlLabel-label-179"
+                >
+                  Average Medicare Payments
+                </p>
+              </label>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-typeItem-64 MuiGrid-grid-xs-12-93"
+          >
+            <button
+              className="MuiButtonBase-root-197 MuiButton-root-207 MuiButton-raised-214 MuiButton-raisedPrimary-216 fullWidth"
+              disabled={false}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchStart={[Function]}
+              role="button"
+              tabIndex={0}
+              type="button"
+            >
+              <span
+                className="MuiButton-label-209"
+              >
+                Search
+              </span>
+              <span
+                className="MuiTouchRipple-root-200"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="MuiGrid-typeItem-64 MuiGrid-grid-xs-12-93 MuiGrid-grid-lg-6-126 MuiGrid-grid-xl-8-141 results"
+    >
+      <div
+        className="DataTable-paper-229"
+      >
+        <div
+          className="tableTitle"
+        >
+          <h2
+            className="MuiTypography-root-41 MuiTypography-title-47"
+          >
+            Providers
+          </h2>
+        </div>
+        <table
+          className="MuiTable-root-230"
+        >
+          <thead
+            className="MuiTableHead-root-231"
+          >
+            <tr
+              className="MuiTableRow-root-232 MuiTableRow-head-233"
+            >
+              <th
+                className="MuiTableCell-root-237 MuiTableCell-padding-240 MuiTableCell-head-239"
+              >
+                Name
+              </th>
+              <th
+                className="MuiTableCell-root-237 MuiTableCell-padding-240 MuiTableCell-head-239"
+              >
+                Street Address
+              </th>
+              <th
+                className="MuiTableCell-root-237 MuiTableCell-padding-240 MuiTableCell-head-239"
+              >
+                City
+              </th>
+              <th
+                className="MuiTableCell-root-237 MuiTableCell-padding-240 MuiTableCell-head-239"
+              >
+                State
+              </th>
+              <th
+                className="MuiTableCell-root-237 MuiTableCell-numeric-238 MuiTableCell-padding-240 MuiTableCell-head-239"
+              >
+                Zip Code
+              </th>
+              <th
+                className="MuiTableCell-root-237 MuiTableCell-padding-240 MuiTableCell-head-239"
+              >
+                Hospital Referral Region
+              </th>
+              <th
+                className="MuiTableCell-root-237 MuiTableCell-numeric-238 MuiTableCell-padding-240 MuiTableCell-head-239"
+              >
+                Total Discharges
+              </th>
+              <th
+                className="MuiTableCell-root-237 MuiTableCell-numeric-238 MuiTableCell-padding-240 MuiTableCell-head-239"
+              >
+                Average Covered Charges
+              </th>
+              <th
+                className="MuiTableCell-root-237 MuiTableCell-numeric-238 MuiTableCell-padding-240 MuiTableCell-head-239"
+              >
+                Average Total Payments
+              </th>
+              <th
+                className="MuiTableCell-root-237 MuiTableCell-numeric-238 MuiTableCell-padding-240 MuiTableCell-head-239"
+              >
+                Average Medicare Payments
+              </th>
+            </tr>
+          </thead>
+          <tbody
+            className="MuiTableBody-root-244"
+          >
+            <tr
+              className="MuiTableRow-root-232"
+            >
+              <td
+                className="MuiTableCell-root-237 MuiTableCell-padding-240"
+              >
+                GWINNETT MEDICAL CENTER
+              </td>
+              <td
+                className="MuiTableCell-root-237 MuiTableCell-padding-240"
+              >
+                1000 MEDICAL CENTER BOULEVARD
+              </td>
+              <td
+                className="MuiTableCell-root-237 MuiTableCell-padding-240"
+              >
+                LAWRENCEVILLE
+              </td>
+              <td
+                className="MuiTableCell-root-237 MuiTableCell-padding-240"
+              >
+                GA
+              </td>
+              <td
+                className="MuiTableCell-root-237 MuiTableCell-numeric-238 MuiTableCell-padding-240"
+              >
+                30045
+              </td>
+              <td
+                className="MuiTableCell-root-237 MuiTableCell-padding-240"
+              >
+                GA - Atlanta
+              </td>
+              <td
+                className="MuiTableCell-root-237 MuiTableCell-numeric-238 MuiTableCell-padding-240"
+              >
+                104
+              </td>
+              <td
+                className="MuiTableCell-root-237 MuiTableCell-numeric-238 MuiTableCell-padding-240"
+              >
+                <span>
+                  $18,536.7
+                </span>
+              </td>
+              <td
+                className="MuiTableCell-root-237 MuiTableCell-numeric-238 MuiTableCell-padding-240"
+              >
+                <span>
+                  $4,679.72
+                </span>
+              </td>
+              <td
+                className="MuiTableCell-root-237 MuiTableCell-numeric-238 MuiTableCell-padding-240"
+              >
+                <span>
+                  $3,452.18
+                </span>
+              </td>
+            </tr>
+            <tr
+              className="MuiTableRow-root-232"
+            >
+              <td
+                className="MuiTableCell-root-237 MuiTableCell-padding-240"
+              >
+                HENRY MEDICAL CENTER, INC
+              </td>
+              <td
+                className="MuiTableCell-root-237 MuiTableCell-padding-240"
+              >
+                1133 EAGLE'S LANDING PARKWAY
+              </td>
+              <td
+                className="MuiTableCell-root-237 MuiTableCell-padding-240"
+              >
+                STOCKBRIDGE
+              </td>
+              <td
+                className="MuiTableCell-root-237 MuiTableCell-padding-240"
+              >
+                GA
+              </td>
+              <td
+                className="MuiTableCell-root-237 MuiTableCell-numeric-238 MuiTableCell-padding-240"
+              >
+                30281
+              </td>
+              <td
+                className="MuiTableCell-root-237 MuiTableCell-padding-240"
+              >
+                GA - Atlanta
+              </td>
+              <td
+                className="MuiTableCell-root-237 MuiTableCell-numeric-238 MuiTableCell-padding-240"
+              >
+                105
+              </td>
+              <td
+                className="MuiTableCell-root-237 MuiTableCell-numeric-238 MuiTableCell-padding-240"
+              >
+                <span>
+                  $25,179.04
+                </span>
+              </td>
+              <td
+                className="MuiTableCell-root-237 MuiTableCell-numeric-238 MuiTableCell-padding-240"
+              >
+                <span>
+                  $9,595.65
+                </span>
+              </td>
+              <td
+                className="MuiTableCell-root-237 MuiTableCell-numeric-238 MuiTableCell-padding-240"
+              >
+                <span>
+                  $8,874.49
+                </span>
+              </td>
+            </tr>
+          </tbody>
+          <tfoot
+            className="MuiTableFooter-root-245"
+          >
+            <tr
+              className="MuiTableRow-root-232 MuiTableRow-footer-234"
+              style={
+                Object {
+                  "display": "flex",
+                }
+              }
+            >
+              <td
+                className="MuiTableCell-root-237 MuiTableCell-padding-240 MuiTableCell-footer-243 MuiTablePagination-cell-246"
+                colSpan={9001}
+              >
+                <div
+                  className="MuiToolbar-root-39 MuiToolbar-gutters-40 MuiTablePagination-toolbar-247"
+                >
+                  <div
+                    className="MuiTablePagination-spacer-248"
+                  />
+                  <span
+                    className="MuiTypography-root-41 MuiTypography-caption-51"
+                  >
+                    Rows per page:
+                  </span>
+                  <div
+                    className="MuiInput-root-160"
+                    onBlur={[Function]}
+                    onFocus={[Function]}
+                  >
+                    <div
+                      className="MuiSelect-root-252 MuiTablePagination-selectRoot-250"
+                    >
+                      <div
+                        aria-haspopup="true"
+                        aria-owns={null}
+                        aria-pressed="false"
+                        className="MuiSelect-select-253 MuiTablePagination-select-249 MuiSelect-selectMenu-254 MuiInput-input-164 MuiInput-inputSingleline-171"
+                        onBlur={[Function]}
+                        onClick={[Function]}
+                        onFocus={undefined}
+                        onKeyDown={[Function]}
+                        role="button"
+                        tabIndex={0}
+                      >
+                        10
+                      </div>
+                      <input
+                        autoComplete={undefined}
+                        autoFocus={undefined}
+                        defaultValue={undefined}
+                        id={undefined}
+                        name={undefined}
+                        onKeyDown={undefined}
+                        onKeyUp={undefined}
+                        placeholder={undefined}
+                        readOnly={undefined}
+                        required={undefined}
+                        rows={undefined}
+                        type="hidden"
+                        value={10}
+                      />
+                      <svg
+                        aria-hidden="true"
+                        className="MuiSvgIcon-root-199 MuiSelect-icon-256"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M7 10l5 5 5-5z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                  <span
+                    className="MuiTypography-root-41 MuiTypography-caption-51"
+                  >
+                    1-2 of 2
+                  </span>
+                  <div
+                    className="MuiTablePagination-actions-251"
+                  >
+                    <button
+                      className="MuiButtonBase-root-197 MuiButtonBase-disabled-198 MuiIconButton-root-188 MuiIconButton-disabled-193"
+                      disabled={true}
+                      onBlur={[Function]}
+                      onClick={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseDown={[Function]}
+                      onMouseLeave={[Function]}
+                      onMouseUp={[Function]}
+                      onTouchEnd={[Function]}
+                      onTouchStart={[Function]}
+                      role="button"
+                      tabIndex={-1}
+                      type="button"
+                    >
+                      <span
+                        className="MuiIconButton-label-194"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          className="MuiSvgIcon-root-199"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M15.41 16.09l-4.58-4.59 4.58-4.59L14 5.5l-6 6 6 6z"
+                          />
+                        </svg>
+                      </span>
+                    </button>
+                    <button
+                      className="MuiButtonBase-root-197 MuiButtonBase-disabled-198 MuiIconButton-root-188 MuiIconButton-disabled-193"
+                      disabled={true}
+                      onBlur={[Function]}
+                      onClick={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseDown={[Function]}
+                      onMouseLeave={[Function]}
+                      onMouseUp={[Function]}
+                      onTouchEnd={[Function]}
+                      onTouchStart={[Function]}
+                      role="button"
+                      tabIndex={-1}
+                      type="button"
+                    >
+                      <span
+                        className="MuiIconButton-label-194"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          className="MuiSvgIcon-root-199"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"
+                          />
+                        </svg>
+                      </span>
+                    </button>
+                  </div>
+                </div>
+              </td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+`;

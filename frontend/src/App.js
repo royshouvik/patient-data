@@ -10,14 +10,13 @@ import TextContainer from './components/TextContainer';
 import { providerHeader } from './constants';
 import { getProviders } from './actions/actions';
 
-
 import './App.css';
 
 const containerStyle = {
   width: '100%',
 }
 
-class App extends Component {
+export class App extends Component {
   render() {
     const { isFetching, isEmpty, data } = this.props;
     const initialRender = (!isEmpty && data.length === 0) && !isFetching;
