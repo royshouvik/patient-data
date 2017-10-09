@@ -18,9 +18,13 @@ app.start = function() {
   });
 };
 
+const options = {
+  appRootDir: __dirname,
+  env: process.env.NODE_ENV,
+};
 // Bootstrap the application, configure models, datasources and middleware.
 // Sub-apps like REST API are mounted via boot scripts.
-boot(app, __dirname, function(err) {
+boot(app, options, function(err) {
   if (err) throw err;
 
   // start the server if `$ node server.js`
