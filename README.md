@@ -24,6 +24,7 @@ Each of the layers eg. frontend, api, database are housed in self contained and 
 
 ## NoSQL vs SQL
 We chose NoSQL/MongoDB because
+
     - Our data model is denormalized.
     - It playes nicely with NodeJS ecosystem.
 
@@ -35,6 +36,7 @@ Loopback reduced lot of the boilerplate code needed, and provided a strong found
 - Docker Compose
 
 ## Installation
+
 - Clone the repository.
 - Provide a `.csv` file in the `mongo-seed` directory for initial seed data.
 - Create a `.env` file in the root directory with following keys
@@ -51,7 +53,18 @@ API_BASE_URL=http://*localhost or server ip*:3000/api/
 ```
 - Run `docker-compose up --build`.
 
+## To run tests
+### API unit tests
+
+- Navigate to `/api` directory.
+- Run `npm test`.
+
+### Frontend unit tests
+
+- Navigate to `/frontend` directory.
+- Run `npm test`.
+
 ## Known Issues
 - The fontend build is not optimized for production.
 - The api layer is not configured for production. Ideally, we should have SSL, Node working in multi cluster etc.
-- Unit tests missing.
+
